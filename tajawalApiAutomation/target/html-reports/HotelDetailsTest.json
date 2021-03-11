@@ -1,0 +1,793 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-10T04:19:13.895Z",
+        "line": 10,
+        "name": "Verify the hotel details for a given city",
+        "description": "",
+        "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city;verify-the-hotel-details-for-a-given-city;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5141278000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want fetch the hotel details for the \"DUBAI\" with \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DUBAI\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 52
+                }
+              ],
+              "location": "HotelDetailsSteps.callHotelDetails(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3612500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate response status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 33
+                }
+              ],
+              "location": "HotelDetailsSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: BASED ON ASSUMPTION, CITY NAME NOT PRESENT IN HOTEL NAME OR ADDRESS. HERE ARE THE LIST, \n[{ar\u003dجراند الإمارات للشقق الفندقية, en\u003dEmirates Grand Hotel Apartments}, {ar\u003dجيه إيه أوشن فيو هوتل, en\u003dJA Ocean View Hotel}, {ar\u003dالعنوان داونتاون, en\u003dAddress Downtown }, {ar\u003dفندق كمبينسكي مول الإمارات , en\u003dKempinski Hotel Mall of the Emirates}]\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat com.tajawal.step.definition.HotelDetailsSteps.validateCity(HotelDetailsSteps.java:107)\r\n\tat ✽.Validate \"DUBAI\" in hotel name or address(file:src/main/resources/features/HotelDetails.feature:7)\r\n",
+              "duration": 43427100,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Validate \"DUBAI\" in hotel name or address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DUBAI\"",
+                  "offset": 9
+                }
+              ],
+              "location": "HotelDetailsSteps.validateCity(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_HotelDetails"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T04:19:19.186Z",
+        "line": 11,
+        "name": "Verify the hotel details for a given city",
+        "description": "",
+        "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city;verify-the-hotel-details-for-a-given-city;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1401778500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want fetch the hotel details for the \"DELHI\" with \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELHI\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 52
+                }
+              ],
+              "location": "HotelDetailsSteps.callHotelDetails(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1179100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate response status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 33
+                }
+              ],
+              "location": "HotelDetailsSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: BASED ON ASSUMPTION, CITY NAME NOT PRESENT IN HOTEL NAME OR ADDRESS. HERE ARE THE LIST, \n[{ar\u003dAsset No 2, Aerocity Hospitality District, en\u003dAsset No 2, Aerocity Hospitality District}, {ar\u003d7 Sham Nath Marg, en\u003d7 Sham Nath Marg}, {ar\u003dجايبي فاسانت كونتننتال, en\u003dJaypee Vasant Continental}, {ar\u003dفندق بوتيك بالم سبرينج, en\u003dPalm Springs Stays}, {ar\u003dذا لودي - آيه ميمبر أوف ذا ليدنج هوتلز أوف ذا وورلد, en\u003dThe Lodhi - A member of The Leading Hotels Of The World}, {ar\u003dذا أشتان ساروفار بورتيكو, en\u003dThe Ashtan Sarovar Portico}, {ar\u003dروزيات هاوس, en\u003dRoseate House}, {ar\u003dذا تاج ماهال هوتل, en\u003dThe Taj Mahal Hotel}, {ar\u003dويلكوم هوتل دواركا - ميمبر آي تي سي هوتل غروب, en\u003dWelcomHotel Dwarka - Member ITC Hotel Group}, {ar\u003dSamalkha, NH-8, en\u003dSamalkha, NH-8}, {ar\u003dحياة بليس جورجاون/أوديوج فيهار, en\u003dHyatt Place Gurgaon/Udyog Vihar}, {ar\u003dBarakhamba Avenue, Connaught Place, en\u003dBarakhamba Avenue, Connaught Place}, {ar\u003dJanpath Road, en\u003dJanpath Road}, {ar\u003dراديسون جوروجرام يوديوج فيهار, en\u003dRadisson Gurugram Udyog Vihar}, {ar\u003dفندق \u0026 ريزيدنس ذا ليلا أمبيانس جورجاون, en\u003dThe Leela Ambience Hotel \u0026 Residences, Gurugram}, {ar\u003dDiplomatic Enclave, Sadar Patel, en\u003dDiplomatic Enclave, Sadar Patel}]\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat com.tajawal.step.definition.HotelDetailsSteps.validateCity(HotelDetailsSteps.java:107)\r\n\tat ✽.Validate \"DELHI\" in hotel name or address(file:src/main/resources/features/HotelDetails.feature:7)\r\n",
+              "duration": 57669700,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Validate \"DELHI\" in hotel name or address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELHI\"",
+                  "offset": 9
+                }
+              ],
+              "location": "HotelDetailsSteps.validateCity(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_HotelDetails"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T04:19:20.661Z",
+        "line": 12,
+        "name": "Verify the hotel details for a given city",
+        "description": "",
+        "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city;verify-the-hotel-details-for-a-given-city;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1153238300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want fetch the hotel details for the \"LONDON\" with \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LONDON\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 53
+                }
+              ],
+              "location": "HotelDetailsSteps.callHotelDetails(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1273000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate response status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 33
+                }
+              ],
+              "location": "HotelDetailsSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: BASED ON ASSUMPTION, CITY NAME NOT PRESENT IN HOTEL NAME OR ADDRESS. HERE ARE THE LIST, \n[{ar\u003dأمبا هوتل ماربل آرش, en\u003dAmba Hotel Marble Arch}, {ar\u003d(هيثرو, المملكة المتحدة)  M4J4, Cherry Lane, UB7 9HJ,, en\u003dM4J4, Cherry Lane, Heathrow, UB7 9HJ, United Kingdom}, {ar\u003d(هيلينغدون, المملكة المتحدة)  Highpoint Village, Station Approach, , UB3 4FL,, en\u003dHighpoint Village, Station Approach, Hillingdon, UB3 4FL, United Kingdom}]\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat com.tajawal.step.definition.HotelDetailsSteps.validateCity(HotelDetailsSteps.java:107)\r\n\tat ✽.Validate \"LONDON\" in hotel name or address(file:src/main/resources/features/HotelDetails.feature:7)\r\n",
+              "duration": 33178700,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "Validate \"LONDON\" in hotel name or address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LONDON\"",
+                  "offset": 9
+                }
+              ],
+              "location": "HotelDetailsSteps.validateCity(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_HotelDetails"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T04:19:21.861Z",
+        "line": 21,
+        "name": "Verify the number of Hotel response as per the request",
+        "description": "",
+        "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city;verify-the-number-of-hotel-response-as-per-the-request;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 606725500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want fetch the hotel details for the \"JEDDAH\" with \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"JEDDAH\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 53
+                }
+              ],
+              "location": "HotelDetailsSteps.callHotelDetails(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1061900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Validate response status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 33
+                }
+              ],
+              "location": "HotelDetailsSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16234800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Validate pagesize \"10\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HotelDetailsSteps.validatePageSizeInResponse(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_HotelDetails"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T04:19:22.493Z",
+        "line": 22,
+        "name": "Verify the number of Hotel response as per the request",
+        "description": "",
+        "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city;verify-the-number-of-hotel-response-as-per-the-request;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 630321100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want fetch the hotel details for the \"SEYCHELLES\" with \"25\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SEYCHELLES\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"25\"",
+                  "offset": 57
+                }
+              ],
+              "location": "HotelDetailsSteps.callHotelDetails(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1340400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Validate response status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 33
+                }
+              ],
+              "location": "HotelDetailsSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18527000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Validate pagesize \"25\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"25\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HotelDetailsSteps.validatePageSizeInResponse(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_HotelDetails"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T04:19:23.151Z",
+        "line": 32,
+        "name": "Verify the hotel name in arabic language",
+        "description": "",
+        "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city;verify-the-hotel-name-in-arabic-language;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 355290300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I want fetch the hotel details for the \"SYDNEY\" with \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SYDNEY\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 53
+                }
+              ],
+              "location": "HotelDetailsSteps.callHotelDetails(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1425100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Validate response status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 33
+                }
+              ],
+              "location": "HotelDetailsSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35392700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Validate pagesize \"10\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HotelDetailsSteps.validatePageSizeInResponse(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20532400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Validate the hotelname in arabic",
+            "match": {
+              "location": "HotelDetailsSteps.validateArabicLanguage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_HotelDetails"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T04:19:23.580Z",
+        "line": 33,
+        "name": "Verify the hotel name in arabic language",
+        "description": "",
+        "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city;verify-the-hotel-name-in-arabic-language;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 374430800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I want fetch the hotel details for the \"CHENNAI\" with \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CHENNAI\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 54
+                }
+              ],
+              "location": "HotelDetailsSteps.callHotelDetails(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 753100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Validate response status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 33
+                }
+              ],
+              "location": "HotelDetailsSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NumberFormatException: For input string: \"\"\r\n\tat java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)\r\n\tat java.lang.Integer.parseInt(Integer.java:592)\r\n\tat java.lang.Integer.parseInt(Integer.java:615)\r\n\tat com.tajawal.step.definition.HotelDetailsSteps.validatePageSizeInResponse(HotelDetailsSteps.java:70)\r\n\tat ✽.Validate pagesize \"\" in response(file:src/main/resources/features/HotelDetails.feature:28)\r\n",
+              "duration": 28794400,
+              "status": "failed"
+            },
+            "line": 28,
+            "name": "Validate pagesize \"\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 18
+                }
+              ],
+              "location": "HotelDetailsSteps.validatePageSizeInResponse(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 729800,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "Validate the hotelname in arabic",
+            "match": {
+              "location": "HotelDetailsSteps.validateArabicLanguage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_HotelDetails"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T04:19:23.991Z",
+        "line": 42,
+        "name": "Test the error scenarios with invalid dataset",
+        "description": "",
+        "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city;test-the-error-scenarios-with-invalid-dataset;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.tajawal.step.definition.HotelDetailsSteps.validateArabicLanguage(HotelDetailsSteps.java:115)\r\n\tat com.tajawal.step.definition.HotelDetailsSteps.callHotelDetails(HotelDetailsSteps.java:46)\r\n\tat ✽.I want fetch the hotel details for the \"SINGAPORE\" with \"0\"(file:src/main/resources/features/HotelDetails.feature:37)\r\n",
+              "duration": 871022100,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "I want fetch the hotel details for the \"SINGAPORE\" with \"0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SINGAPORE\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"0\"",
+                  "offset": 56
+                }
+              ],
+              "location": "HotelDetailsSteps.callHotelDetails(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 898900,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Validate response status code as \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"400\"",
+                  "offset": 33
+                }
+              ],
+              "location": "HotelDetailsSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 625800,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "Validate the error message \"BAD REQUEST\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BAD REQUEST\"",
+                  "offset": 27
+                }
+              ],
+              "location": "HotelDetailsSteps.validateTheErrorMessageInResponse(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_HotelDetails"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T04:19:24.880Z",
+        "line": 43,
+        "name": "Test the error scenarios with invalid dataset",
+        "description": "",
+        "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city;test-the-error-scenarios-with-invalid-dataset;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.tajawal.step.definition.HotelDetailsSteps.validateArabicLanguage(HotelDetailsSteps.java:115)\r\n\tat com.tajawal.step.definition.HotelDetailsSteps.callHotelDetails(HotelDetailsSteps.java:46)\r\n\tat ✽.I want fetch the hotel details for the \"\" with \"10\"(file:src/main/resources/features/HotelDetails.feature:37)\r\n",
+              "duration": 772145000,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "I want fetch the hotel details for the \"\" with \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 47
+                }
+              ],
+              "location": "HotelDetailsSteps.callHotelDetails(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 909500,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Validate response status code as \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"400\"",
+                  "offset": 33
+                }
+              ],
+              "location": "HotelDetailsSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1143200,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "Validate the error message \"BAD REQUEST\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BAD REQUEST\"",
+                  "offset": 27
+                }
+              ],
+              "location": "HotelDetailsSteps.validateTheErrorMessageInResponse(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_HotelDetails"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-10T04:19:25.659Z",
+        "line": 44,
+        "name": "Test the error scenarios with invalid dataset",
+        "description": "",
+        "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city;test-the-error-scenarios-with-invalid-dataset;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.tajawal.step.definition.HotelDetailsSteps.validateArabicLanguage(HotelDetailsSteps.java:115)\r\n\tat com.tajawal.step.definition.HotelDetailsSteps.callHotelDetails(HotelDetailsSteps.java:46)\r\n\tat ✽.I want fetch the hotel details for the \"\" with \"\"(file:src/main/resources/features/HotelDetails.feature:37)\r\n",
+              "duration": 778549200,
+              "status": "failed"
+            },
+            "line": 37,
+            "name": "I want fetch the hotel details for the \"\" with \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 47
+                }
+              ],
+              "location": "HotelDetailsSteps.callHotelDetails(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1782900,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Validate response status code as \"400\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"400\"",
+                  "offset": 33
+                }
+              ],
+              "location": "HotelDetailsSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1496300,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "Validate the error message \"BAD REQUEST\" in response",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BAD REQUEST\"",
+                  "offset": 27
+                }
+              ],
+              "location": "HotelDetailsSteps.validateTheErrorMessageInResponse(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_HotelDetails"
+          }
+        ]
+      }
+    ],
+    "name": "As a user i want to fetch Hotel Details for a given city",
+    "description": "",
+    "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/HotelDetails.feature",
+    "tags": [
+      {
+        "name": "@TC_HotelDetails",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(Å—‹ï8¶‘ğ¾/
+o
+java:S1128"RRemove this unused import 'io.cucumber.datatable.dependency.difflib.StringUtills'.(«ƒ¼8œîÜ¾/
+j
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ÆíĞË8œîÜ¾/
+s
+java:S1192"QDefine a constant instead of duplicating this literal "test.environment" 4 times.(³é¹íùÿÿÿÿ8œîÜ¾/
+F
+java:S1068")Remove this unused "input" private field.(‡‹Ûš8œîÜ¾/
+p
+java:S1192"SDefine a constant instead of duplicating this literal "_config.properties" 3 times.(Ã©Ø´8œîÜ¾/

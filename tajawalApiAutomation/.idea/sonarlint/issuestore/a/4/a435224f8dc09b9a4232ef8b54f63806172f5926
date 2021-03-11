@@ -1,0 +1,9 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(˜âëª8’ÈÕ¾/
+
+java:S1186!"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸Œ¨ø8‡ì¿/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Í×éÑøÿÿÿÿ8²Ù¾/
+G
+java:S3457"%String contains no format specifiers.(¶±Õüÿÿÿÿÿ8µ†ä¿/
+M
+java:S5960"+Remove this assertion from production code.(¶±Õüÿÿÿÿÿ8ƒá¿/
