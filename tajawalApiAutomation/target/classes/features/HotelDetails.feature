@@ -1,18 +1,23 @@
-
+@TC_HotelDetails
+@Regression
 Feature: As a user i want to fetch Hotel Details for a given city
 
+  @issue=1
+  @tmsLink=1
+  @severiy=blocker
   Scenario Outline: Verify the valid image display to each hotel in response
     Given I want fetch the hotel details for the "<CITY>" with "<PAGE_SIZE>"
     Then Validate response status code as "200"
-#    Then Validate "<CITY>" in hotel name or address
     Then Validate the image appearing for each hotel
     Examples:
       | CITY   | PAGE_SIZE |
       | DUBAI  | 10        |
-#      | DELHI  |           |
-#      | LONDON | 5         |
+      | DELHI  |           |
+      | LONDON | 5         |
 
-
+  @issue=2
+  @tmsLink=5
+  @severiy=critical
   Scenario Outline: Verify the number of Hotel response as per the request
     Given I want fetch the hotel details for the "<CITY>" with "<PAGE_SIZE>"
     Then Validate response status code as "200"
@@ -23,17 +28,9 @@ Feature: As a user i want to fetch Hotel Details for a given city
       | SEYCHELLES | 25        |
 
 
-  Scenario Outline: Verify the hotel name in arabic language
-    Given I want fetch the hotel details for the "<CITY>" with "<PAGE_SIZE>"
-    Then Validate response status code as "200"
-    Then Validate pagesize "<PAGE_SIZE>" in response
-    Then Validate the hotelname in arabic
-    Examples:
-      | CITY    | PAGE_SIZE |
-      | SYDNEY  | 10        |
-      | CHENNAI |           |
-
-  @TC_HotelDetails
+  @issue=3
+  @tmsLink=3
+  @severiy=normal
   Scenario Outline: Test the error scenarios with invalid dataset
     Given I want fetch the hotel details for the "<CITY>" with "<PAGE_SIZE>"
     Then Validate response status code as "400"

@@ -1,0 +1,1 @@
+GET URL : https://www.tajawal.ae/api/enigma/content/hotels/summaries?query=SINGAPORE&pageSize=-1

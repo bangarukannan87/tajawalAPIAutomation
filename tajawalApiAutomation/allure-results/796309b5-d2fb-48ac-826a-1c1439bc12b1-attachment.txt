@@ -1,0 +1,17 @@
+{
+    "timestamp": "2021-03-11T20:38:34.786+0000",
+    "path": "/content/summary",
+    "status": 400,
+    "error": "Bad Request",
+    "message": null,
+    "requestId": "fbb6ba66",
+    "exception": "com.seera.exception.ValidationException",
+    "trace": null,
+    "traceId": "1c4f67f9f2cf51cf",
+    "serviceName": "hotel-core-service",
+    "errorCodes": [
+        "1018"
+    ],
+    "errorType": "Validation error",
+    "code": 106
+}

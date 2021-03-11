@@ -1,0 +1,1 @@
+GET URL : https://hotelcmsimages.s3-eu-west-1.amazonaws.com/hotel/hotels/7000000/6050000/6049600/6049583/7bd3e7b5_z.jpg

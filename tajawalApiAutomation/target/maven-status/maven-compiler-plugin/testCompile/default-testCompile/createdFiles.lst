@@ -1,1 +1,3 @@
 runCukes\calenderPricing\CalenderPricingTest.class
+runCukes\regression\RegressionTest.class
+runCukes\hotelDetails\HotelDetailsTest.class

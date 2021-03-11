@@ -1,13 +1,13 @@
 [
   {
-    "line": 2,
+    "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-03-11T17:23:17.724Z",
+        "start_timestamp": "2021-03-11T21:37:57.806Z",
         "before": [
           {
             "result": {
-              "duration": 629100,
+              "duration": 1020700,
               "status": "passed"
             },
             "match": {
@@ -15,10 +15,10 @@
             }
           }
         ],
-        "line": 12,
+        "line": 15,
         "name": "Retrieve the Calender fares for the one way routes",
         "description": "",
-        "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city;retrieve-the-calender-fares-for-the-one-way-routes;;2",
+        "id": "as-a-user-i-want-to-retrieve-the-calendar-fares-for-the-given-date-and-route;retrieve-the-calender-fares-for-the-one-way-routes;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
@@ -26,14 +26,14 @@
             "output": [
               "HEADERS : {Content-Type\u003dapplication/json}",
               "ENDPONT : https://www.tajawal.ae/api/v3/flights/flight/get-fares-calender",
-              "REQUEST :\n{\r\n  \"leg\" : [ {\r\n    \"originId\" : \"DXB\",\r\n    \"destinationId\" : \"MAA\",\r\n    \"departureFrom\" : \"2021-03-31\",\r\n    \"departureTo\" : \"2021-04-02\"\r\n  } ],\r\n  \"cabin\" : \"Economy\",\r\n  \"pax\" : {\r\n    \"adult\" : 1,\r\n    \"child\" : 0,\r\n    \"infant\" : 0\r\n  },\r\n  \"stops\" : [ ],\r\n  \"airline\" : [ ]\r\n}",
-              "RESPONSE :\n{\n    \"2021-04-02\": {\n        \"price\": 350,\n        \"updatedAt\": \"2021-03-09T18:06:58.893Z\"\n    },\n    \"2021-04-01\": {\n        \"price\": 393.04,\n        \"updatedAt\": \"2021-03-11T08:08:23.515Z\"\n    },\n    \"2021-03-31\": {\n        \"price\": 350,\n        \"updatedAt\": \"2021-03-11T09:32:08.683Z\"\n    }\n}"
+              "REQUEST :\n{\r\n  \"leg\" : [ {\r\n    \"originId\" : \"DXB\",\r\n    \"destinationId\" : \"MAA\",\r\n    \"departureFrom\" : \"2021-04-01\",\r\n    \"departureTo\" : \"2021-04-03\"\r\n  } ],\r\n  \"cabin\" : \"Economy\",\r\n  \"pax\" : {\r\n    \"adult\" : 1,\r\n    \"child\" : 0,\r\n    \"infant\" : 0\r\n  },\r\n  \"stops\" : [ ],\r\n  \"airline\" : [ ]\r\n}",
+              "RESPONSE :\n{\n    \"2021-04-03\": {\n        \"price\": 350,\n        \"updatedAt\": \"2021-03-09T22:28:45.196Z\"\n    },\n    \"2021-04-02\": {\n        \"price\": 350,\n        \"updatedAt\": \"2021-03-09T18:06:58.893Z\"\n    },\n    \"2021-04-01\": {\n        \"price\": 393.04,\n        \"updatedAt\": \"2021-03-11T08:08:23.515Z\"\n    }\n}"
             ],
             "result": {
-              "duration": 3566710000,
+              "duration": 3540290600,
               "status": "passed"
             },
-            "line": 5,
+            "line": 9,
             "name": "I want to retrieve fares for \"DXB-MAA\", \"20-22\", \"Economy\", \"ADT-1,CHD-0,INF-0\", \"\" and \"\"",
             "match": {
               "arguments": [
@@ -68,10 +68,10 @@
           },
           {
             "result": {
-              "duration": 3372800,
+              "duration": 3791500,
               "status": "passed"
             },
-            "line": 6,
+            "line": 10,
             "name": "Validate Calender fare response status code as \"200\"",
             "match": {
               "arguments": [
@@ -86,10 +86,10 @@
           },
           {
             "result": {
-              "duration": 177349800,
+              "duration": 166564800,
               "status": "passed"
             },
-            "line": 7,
+            "line": 11,
             "name": "Validate the response calender price date for the given \"20-22\"",
             "match": {
               "arguments": [
@@ -101,32 +101,32 @@
               "location": "CalenderPricingSteps.validateResponseDates(String)"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 70273900,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Validate the Calender fare response against schema",
-            "match": {
-              "location": "CalenderPricingSteps.validateResponseWithSchema()"
-            },
-            "keyword": "Then "
           }
         ],
         "tags": [
           {
             "name": "@TC_CalenderPricing"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@severity\u003dcritical"
+          },
+          {
+            "name": "@issue\u003d10"
+          },
+          {
+            "name": "@tmsLink\u003d21"
           }
         ]
       },
       {
-        "start_timestamp": "2021-03-11T17:23:21.617Z",
+        "start_timestamp": "2021-03-11T21:38:01.583Z",
         "before": [
           {
             "result": {
-              "duration": 57100,
+              "duration": 63800,
               "status": "passed"
             },
             "match": {
@@ -134,10 +134,10 @@
             }
           }
         ],
-        "line": 13,
+        "line": 16,
         "name": "Retrieve the Calender fares for the one way routes",
         "description": "",
-        "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city;retrieve-the-calender-fares-for-the-one-way-routes;;3",
+        "id": "as-a-user-i-want-to-retrieve-the-calendar-fares-for-the-given-date-and-route;retrieve-the-calender-fares-for-the-one-way-routes;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
@@ -145,14 +145,14 @@
             "output": [
               "HEADERS : {Content-Type\u003dapplication/json}",
               "ENDPONT : https://www.tajawal.ae/api/v3/flights/flight/get-fares-calender",
-              "REQUEST :\n{\r\n  \"leg\" : [ {\r\n    \"originId\" : \"JED\",\r\n    \"destinationId\" : \"DXB\",\r\n    \"departureFrom\" : \"2021-03-31\",\r\n    \"departureTo\" : \"2021-04-10\"\r\n  } ],\r\n  \"cabin\" : \"Economy\",\r\n  \"pax\" : {\r\n    \"adult\" : 1,\r\n    \"child\" : 1,\r\n    \"infant\" : 1\r\n  },\r\n  \"stops\" : [ ],\r\n  \"airline\" : [ \"EK\", \"EY\", \"QR\" ]\r\n}",
-              "RESPONSE :\n{\n    \"2021-04-04\": {\n        \"price\": 1650,\n        \"updatedAt\": \"2021-03-06T00:34:13.697Z\"\n    },\n    \"2021-04-02\": {\n        \"price\": 1570,\n        \"updatedAt\": \"2021-03-11T15:08:49.391Z\"\n    },\n    \"2021-03-31\": {\n        \"price\": 1050,\n        \"updatedAt\": \"2021-03-08T21:09:44.306Z\"\n    }\n}"
+              "REQUEST :\n{\r\n  \"leg\" : [ {\r\n    \"originId\" : \"JED\",\r\n    \"destinationId\" : \"DXB\",\r\n    \"departureFrom\" : \"2021-04-01\",\r\n    \"departureTo\" : \"2021-04-11\"\r\n  } ],\r\n  \"cabin\" : \"Economy\",\r\n  \"pax\" : {\r\n    \"adult\" : 1,\r\n    \"child\" : 1,\r\n    \"infant\" : 1\r\n  },\r\n  \"stops\" : [ ],\r\n  \"airline\" : [ \"EK\", \"EY\", \"QR\" ]\r\n}",
+              "RESPONSE :\n{\n    \"2021-04-04\": {\n        \"price\": 1650,\n        \"updatedAt\": \"2021-03-06T00:34:13.697Z\"\n    },\n    \"2021-04-02\": {\n        \"price\": 1570,\n        \"updatedAt\": \"2021-03-11T15:08:49.391Z\"\n    }\n}"
             ],
             "result": {
-              "duration": 814578900,
+              "duration": 847414800,
               "status": "passed"
             },
-            "line": 5,
+            "line": 9,
             "name": "I want to retrieve fares for \"JED-DXB\", \"20-30\", \"Economy\", \"ADT-1,CHD-1,INF-1\", \"\" and \"EK,EY,QR\"",
             "match": {
               "arguments": [
@@ -187,10 +187,10 @@
           },
           {
             "result": {
-              "duration": 1808900,
+              "duration": 2944800,
               "status": "passed"
             },
-            "line": 6,
+            "line": 10,
             "name": "Validate Calender fare response status code as \"200\"",
             "match": {
               "arguments": [
@@ -205,10 +205,10 @@
           },
           {
             "result": {
-              "duration": 12218000,
+              "duration": 16992500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 11,
             "name": "Validate the response calender price date for the given \"20-30\"",
             "match": {
               "arguments": [
@@ -220,32 +220,32 @@
               "location": "CalenderPricingSteps.validateResponseDates(String)"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5377200,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Validate the Calender fare response against schema",
-            "match": {
-              "location": "CalenderPricingSteps.validateResponseWithSchema()"
-            },
-            "keyword": "Then "
           }
         ],
         "tags": [
           {
             "name": "@TC_CalenderPricing"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@severity\u003dcritical"
+          },
+          {
+            "name": "@issue\u003d10"
+          },
+          {
+            "name": "@tmsLink\u003d21"
           }
         ]
       },
       {
-        "start_timestamp": "2021-03-11T17:23:22.453Z",
+        "start_timestamp": "2021-03-11T21:38:02.469Z",
         "before": [
           {
             "result": {
-              "duration": 84900,
+              "duration": 74300,
               "status": "passed"
             },
             "match": {
@@ -253,10 +253,10 @@
             }
           }
         ],
-        "line": 14,
+        "line": 17,
         "name": "Retrieve the Calender fares for the one way routes",
         "description": "",
-        "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city;retrieve-the-calender-fares-for-the-one-way-routes;;4",
+        "id": "as-a-user-i-want-to-retrieve-the-calendar-fares-for-the-given-date-and-route;retrieve-the-calender-fares-for-the-one-way-routes;;4",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
@@ -264,14 +264,14 @@
             "output": [
               "HEADERS : {Content-Type\u003dapplication/json}",
               "ENDPONT : https://www.tajawal.ae/api/v3/flights/flight/get-fares-calender",
-              "REQUEST :\n{\r\n  \"leg\" : [ {\r\n    \"originId\" : \"DXB\",\r\n    \"destinationId\" : \"ICN\",\r\n    \"departureFrom\" : \"2021-03-12\",\r\n    \"departureTo\" : \"2021-03-13\"\r\n  } ],\r\n  \"cabin\" : \"Economy\",\r\n  \"pax\" : {\r\n    \"adult\" : 2,\r\n    \"child\" : 0,\r\n    \"infant\" : 0\r\n  },\r\n  \"stops\" : [ 1, 2 ],\r\n  \"airline\" : [ ]\r\n}",
+              "REQUEST :\n{\r\n  \"leg\" : [ {\r\n    \"originId\" : \"DXB\",\r\n    \"destinationId\" : \"ICN\",\r\n    \"departureFrom\" : \"2021-03-13\",\r\n    \"departureTo\" : \"2021-03-14\"\r\n  } ],\r\n  \"cabin\" : \"Economy\",\r\n  \"pax\" : {\r\n    \"adult\" : 2,\r\n    \"child\" : 0,\r\n    \"infant\" : 0\r\n  },\r\n  \"stops\" : [ 1, 2 ],\r\n  \"airline\" : [ ]\r\n}",
               "RESPONSE :\n[\n    \n]"
             ],
             "result": {
-              "duration": 486680400,
+              "duration": 774872700,
               "status": "passed"
             },
-            "line": 5,
+            "line": 9,
             "name": "I want to retrieve fares for \"DXB-ICN\", \"1-2\", \"Economy\", \"ADT-2,CHD-0,INF-0\", \"1,2\" and \"\"",
             "match": {
               "arguments": [
@@ -306,10 +306,10 @@
           },
           {
             "result": {
-              "duration": 2512200,
+              "duration": 3252000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 10,
             "name": "Validate Calender fare response status code as \"200\"",
             "match": {
               "arguments": [
@@ -324,10 +324,10 @@
           },
           {
             "result": {
-              "duration": 4202900,
+              "duration": 5298600,
               "status": "passed"
             },
-            "line": 7,
+            "line": 11,
             "name": "Validate the response calender price date for the given \"1-2\"",
             "match": {
               "arguments": [
@@ -339,13 +339,471 @@
               "location": "CalenderPricingSteps.validateResponseDates(String)"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_CalenderPricing"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@severity\u003dcritical"
+          },
+          {
+            "name": "@issue\u003d10"
+          },
+          {
+            "name": "@tmsLink\u003d21"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-11T21:38:03.266Z",
+        "before": [
+          {
+            "result": {
+              "duration": 93500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ScenarioHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Retrieve the Calender fares for the round trip / multi-city routes",
+        "description": "",
+        "id": "as-a-user-i-want-to-retrieve-the-calendar-fares-for-the-given-date-and-route;retrieve-the-calender-fares-for-the-round-trip-/-multi-city-routes;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "HEADERS : {Content-Type\u003dapplication/json}",
+              "ENDPONT : https://www.tajawal.ae/api/v3/flights/flight/get-fares-calender",
+              "REQUEST :\n{\r\n  \"leg\" : [ {\r\n    \"originId\" : \"DXB\",\r\n    \"destinationId\" : \"MAA\",\r\n    \"departureFrom\" : \"2021-04-01\",\r\n    \"departureTo\" : \"2021-04-03\"\r\n  }, {\r\n    \"originId\" : \"MAA\",\r\n    \"destinationId\" : \"DXB\",\r\n    \"departureFrom\" : \"2021-05-01\",\r\n    \"departureTo\" : \"2021-05-06\"\r\n  } ],\r\n  \"cabin\" : \"Economy\",\r\n  \"pax\" : {\r\n    \"adult\" : 1,\r\n    \"child\" : 0,\r\n    \"infant\" : 0\r\n  },\r\n  \"stops\" : [ ],\r\n  \"airline\" : [ ]\r\n}",
+              "RESPONSE :\n{\n    \"2021-04-02_2021-05-03\": {\n        \"price\": 1165,\n        \"updatedAt\": \"2020-11-22T10:55:17.146Z\"\n    },\n    \"2021-04-02_2021-05-02\": {\n        \"price\": 889,\n        \"updatedAt\": \"2021-03-02T09:35:59.775Z\"\n    },\n    \"2021-04-01_2021-05-05\": {\n        \"price\": 860.5,\n        \"updatedAt\": \"2021-03-01T18:42:55.948Z\"\n    },\n    \"2021-04-01_2021-05-01\": {\n        \"price\": 1055,\n        \"updatedAt\": \"2021-01-16T14:46:27.783Z\"\n    }\n}"
+            ],
+            "result": {
+              "duration": 546572700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I want to retrieve fares for \"DXB-MAA/MAA-DXB\", \"20-22/50-55\", \"Economy\", \"ADT-1,CHD-0,INF-0\", \"\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DXB-MAA/MAA-DXB\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"20-22/50-55\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Economy\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"ADT-1,CHD-0,INF-0\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 102
+                }
+              ],
+              "location": "CalenderPricingSteps.callCalenderStep(String,String,String,String,String,String)"
+            },
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 8727900,
+              "duration": 3643800,
               "status": "passed"
             },
-            "line": 8,
+            "line": 24,
+            "name": "Validate Calender fare response status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 47
+                }
+              ],
+              "location": "CalenderPricingSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28534600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Validate the response calender price date for the given \"20-22/50-55\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20-22/50-55\"",
+                  "offset": 56
+                }
+              ],
+              "location": "CalenderPricingSteps.validateResponseDates(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_CalenderPricing"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@severity\u003dcritical"
+          },
+          {
+            "name": "@issue\u003d11"
+          },
+          {
+            "name": "@tmsLink\u003d11"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-11T21:38:03.889Z",
+        "before": [
+          {
+            "result": {
+              "duration": 80500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ScenarioHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Retrieve the Calender fares for the round trip / multi-city routes",
+        "description": "",
+        "id": "as-a-user-i-want-to-retrieve-the-calendar-fares-for-the-given-date-and-route;retrieve-the-calender-fares-for-the-round-trip-/-multi-city-routes;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "HEADERS : {Content-Type\u003dapplication/json}",
+              "ENDPONT : https://www.tajawal.ae/api/v3/flights/flight/get-fares-calender",
+              "REQUEST :\n{\r\n  \"leg\" : [ {\r\n    \"originId\" : \"JED\",\r\n    \"destinationId\" : \"DXB\",\r\n    \"departureFrom\" : \"2021-04-01\",\r\n    \"departureTo\" : \"2021-04-11\"\r\n  }, {\r\n    \"originId\" : \"AUH\",\r\n    \"destinationId\" : \"SIN\",\r\n    \"departureFrom\" : \"2021-06-10\",\r\n    \"departureTo\" : \"2021-06-15\"\r\n  } ],\r\n  \"cabin\" : \"Economy\",\r\n  \"pax\" : {\r\n    \"adult\" : 1,\r\n    \"child\" : 1,\r\n    \"infant\" : 1\r\n  },\r\n  \"stops\" : [ ],\r\n  \"airline\" : [ \"EK\", \"FZ\" ]\r\n}",
+              "RESPONSE :\n[\n    \n]"
+            ],
+            "result": {
+              "duration": 732799800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I want to retrieve fares for \"JED-DXB/AUH-SIN\", \"20-30/90-95\", \"Economy\", \"ADT-1,CHD-1,INF-1\", \"\" and \"EK,FZ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"JED-DXB/AUH-SIN\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"20-30/90-95\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Economy\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"ADT-1,CHD-1,INF-1\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"EK,FZ\"",
+                  "offset": 102
+                }
+              ],
+              "location": "CalenderPricingSteps.callCalenderStep(String,String,String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2763800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Validate Calender fare response status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 47
+                }
+              ],
+              "location": "CalenderPricingSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5129800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Validate the response calender price date for the given \"20-30/90-95\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20-30/90-95\"",
+                  "offset": 56
+                }
+              ],
+              "location": "CalenderPricingSteps.validateResponseDates(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_CalenderPricing"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@severity\u003dcritical"
+          },
+          {
+            "name": "@issue\u003d11"
+          },
+          {
+            "name": "@tmsLink\u003d11"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-11T21:38:04.644Z",
+        "before": [
+          {
+            "result": {
+              "duration": 117600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ScenarioHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Retrieve the Calender fares for the round trip / multi-city routes",
+        "description": "",
+        "id": "as-a-user-i-want-to-retrieve-the-calendar-fares-for-the-given-date-and-route;retrieve-the-calender-fares-for-the-round-trip-/-multi-city-routes;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "HEADERS : {Content-Type\u003dapplication/json}",
+              "ENDPONT : https://www.tajawal.ae/api/v3/flights/flight/get-fares-calender",
+              "REQUEST :\n{\r\n  \"leg\" : [ {\r\n    \"originId\" : \"DXB\",\r\n    \"destinationId\" : \"ICN\",\r\n    \"departureFrom\" : \"2021-03-13\",\r\n    \"departureTo\" : \"2021-03-14\"\r\n  }, {\r\n    \"originId\" : \"ICN\",\r\n    \"destinationId\" : \"DXB\",\r\n    \"departureFrom\" : \"2021-05-01\",\r\n    \"departureTo\" : \"2021-05-03\"\r\n  } ],\r\n  \"cabin\" : \"Economy\",\r\n  \"pax\" : {\r\n    \"adult\" : 2,\r\n    \"child\" : 0,\r\n    \"infant\" : 0\r\n  },\r\n  \"stops\" : [ 1, 2 ],\r\n  \"airline\" : [ ]\r\n}",
+              "RESPONSE :\n[\n    \n]"
+            ],
+            "result": {
+              "duration": 467090500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I want to retrieve fares for \"DXB-ICN/ICN-DXB\", \"1-2/50-52\", \"Economy\", \"ADT-2,CHD-0,INF-0\", \"1,2\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DXB-ICN/ICN-DXB\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"1-2/50-52\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Economy\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"ADT-2,CHD-0,INF-0\"",
+                  "offset": 72
+                },
+                {
+                  "val": "\"1,2\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 103
+                }
+              ],
+              "location": "CalenderPricingSteps.callCalenderStep(String,String,String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3236300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Validate Calender fare response status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 47
+                }
+              ],
+              "location": "CalenderPricingSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2009600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Validate the response calender price date for the given \"1-2/50-52\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1-2/50-52\"",
+                  "offset": 56
+                }
+              ],
+              "location": "CalenderPricingSteps.validateResponseDates(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_CalenderPricing"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@severity\u003dcritical"
+          },
+          {
+            "name": "@issue\u003d11"
+          },
+          {
+            "name": "@tmsLink\u003d11"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-11T21:38:05.150Z",
+        "before": [
+          {
+            "result": {
+              "duration": 63900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ScenarioHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Validate the schema for oneway / round trip / multi-city routes",
+        "description": "",
+        "id": "as-a-user-i-want-to-retrieve-the-calendar-fares-for-the-given-date-and-route;validate-the-schema-for-oneway-/-round-trip-/-multi-city-routes;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "HEADERS : {Content-Type\u003dapplication/json}",
+              "ENDPONT : https://www.tajawal.ae/api/v3/flights/flight/get-fares-calender",
+              "REQUEST :\n{\r\n  \"leg\" : [ {\r\n    \"originId\" : \"DXB\",\r\n    \"destinationId\" : \"MAA\",\r\n    \"departureFrom\" : \"2021-04-01\",\r\n    \"departureTo\" : \"2021-04-03\"\r\n  } ],\r\n  \"cabin\" : \"Economy\",\r\n  \"pax\" : {\r\n    \"adult\" : 1,\r\n    \"child\" : 0,\r\n    \"infant\" : 0\r\n  },\r\n  \"stops\" : [ ],\r\n  \"airline\" : [ ]\r\n}",
+              "RESPONSE :\n{\n    \"2021-04-03\": {\n        \"price\": 350,\n        \"updatedAt\": \"2021-03-09T22:28:45.196Z\"\n    },\n    \"2021-04-02\": {\n        \"price\": 350,\n        \"updatedAt\": \"2021-03-09T18:06:58.893Z\"\n    },\n    \"2021-04-01\": {\n        \"price\": 393.04,\n        \"updatedAt\": \"2021-03-11T08:08:23.515Z\"\n    }\n}"
+            ],
+            "result": {
+              "duration": 466218300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I want to retrieve fares for \"DXB-MAA\", \"20-22\", \"Economy\", \"ADT-1,CHD-0,INF-0\", \"\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DXB-MAA\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"20-22\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Economy\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"ADT-1,CHD-0,INF-0\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 88
+                }
+              ],
+              "location": "CalenderPricingSteps.callCalenderStep(String,String,String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2879900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Validate Calender fare response status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 47
+                }
+              ],
+              "location": "CalenderPricingSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 310615400,
+              "status": "passed"
+            },
+            "line": 40,
             "name": "Validate the Calender fare response against schema",
             "match": {
               "location": "CalenderPricingSteps.validateResponseWithSchema()"
@@ -356,15 +814,270 @@
         "tags": [
           {
             "name": "@TC_CalenderPricing"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@severity\u003dblocker"
+          },
+          {
+            "name": "@issue\u003d12"
+          },
+          {
+            "name": "@tmsLink\u003d12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-11T21:38:05.973Z",
+        "before": [
+          {
+            "result": {
+              "duration": 60800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ScenarioHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Validate the schema for oneway / round trip / multi-city routes",
+        "description": "",
+        "id": "as-a-user-i-want-to-retrieve-the-calendar-fares-for-the-given-date-and-route;validate-the-schema-for-oneway-/-round-trip-/-multi-city-routes;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "HEADERS : {Content-Type\u003dapplication/json}",
+              "ENDPONT : https://www.tajawal.ae/api/v3/flights/flight/get-fares-calender",
+              "REQUEST :\n{\r\n  \"leg\" : [ {\r\n    \"originId\" : \"DXB\",\r\n    \"destinationId\" : \"MAA\",\r\n    \"departureFrom\" : \"2021-04-01\",\r\n    \"departureTo\" : \"2021-04-03\"\r\n  }, {\r\n    \"originId\" : \"MAA\",\r\n    \"destinationId\" : \"DXB\",\r\n    \"departureFrom\" : \"2021-05-01\",\r\n    \"departureTo\" : \"2021-05-06\"\r\n  } ],\r\n  \"cabin\" : \"Economy\",\r\n  \"pax\" : {\r\n    \"adult\" : 1,\r\n    \"child\" : 0,\r\n    \"infant\" : 0\r\n  },\r\n  \"stops\" : [ ],\r\n  \"airline\" : [ ]\r\n}",
+              "RESPONSE :\n{\n    \"2021-04-02_2021-05-03\": {\n        \"price\": 1165,\n        \"updatedAt\": \"2020-11-22T10:55:17.146Z\"\n    },\n    \"2021-04-02_2021-05-02\": {\n        \"price\": 889,\n        \"updatedAt\": \"2021-03-02T09:35:59.775Z\"\n    },\n    \"2021-04-01_2021-05-05\": {\n        \"price\": 860.5,\n        \"updatedAt\": \"2021-03-01T18:42:55.948Z\"\n    },\n    \"2021-04-01_2021-05-01\": {\n        \"price\": 1055,\n        \"updatedAt\": \"2021-01-16T14:46:27.783Z\"\n    }\n}"
+            ],
+            "result": {
+              "duration": 508106700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I want to retrieve fares for \"DXB-MAA/MAA-DXB\", \"20-22/50-55\", \"Economy\", \"ADT-1,CHD-0,INF-0\", \"\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DXB-MAA/MAA-DXB\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"20-22/50-55\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Economy\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"ADT-1,CHD-0,INF-0\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 102
+                }
+              ],
+              "location": "CalenderPricingSteps.callCalenderStep(String,String,String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 811000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Validate Calender fare response status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 47
+                }
+              ],
+              "location": "CalenderPricingSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4028800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Validate the Calender fare response against schema",
+            "match": {
+              "location": "CalenderPricingSteps.validateResponseWithSchema()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_CalenderPricing"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@severity\u003dblocker"
+          },
+          {
+            "name": "@issue\u003d12"
+          },
+          {
+            "name": "@tmsLink\u003d12"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-11T21:38:06.500Z",
+        "before": [
+          {
+            "result": {
+              "duration": 50100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ScenarioHooks.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Validate the schema for oneway / round trip / multi-city routes",
+        "description": "",
+        "id": "as-a-user-i-want-to-retrieve-the-calendar-fares-for-the-given-date-and-route;validate-the-schema-for-oneway-/-round-trip-/-multi-city-routes;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "HEADERS : {Content-Type\u003dapplication/json}",
+              "ENDPONT : https://www.tajawal.ae/api/v3/flights/flight/get-fares-calender",
+              "REQUEST :\n{\r\n  \"leg\" : [ {\r\n    \"originId\" : \"JED\",\r\n    \"destinationId\" : \"DXB\",\r\n    \"departureFrom\" : \"2021-04-01\",\r\n    \"departureTo\" : \"2021-04-11\"\r\n  }, {\r\n    \"originId\" : \"AUH\",\r\n    \"destinationId\" : \"SIN\",\r\n    \"departureFrom\" : \"2021-06-10\",\r\n    \"departureTo\" : \"2021-06-15\"\r\n  } ],\r\n  \"cabin\" : \"Economy\",\r\n  \"pax\" : {\r\n    \"adult\" : 1,\r\n    \"child\" : 1,\r\n    \"infant\" : 1\r\n  },\r\n  \"stops\" : [ ],\r\n  \"airline\" : [ \"EK\", \"FZ\" ]\r\n}",
+              "RESPONSE :\n[\n    \n]"
+            ],
+            "result": {
+              "duration": 730709100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I want to retrieve fares for \"JED-DXB/AUH-SIN\", \"20-30/90-95\", \"Economy\", \"ADT-1,CHD-1,INF-1\", \"\" and \"EK,FZ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"JED-DXB/AUH-SIN\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"20-30/90-95\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Economy\"",
+                  "offset": 63
+                },
+                {
+                  "val": "\"ADT-1,CHD-1,INF-1\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"EK,FZ\"",
+                  "offset": 102
+                }
+              ],
+              "location": "CalenderPricingSteps.callCalenderStep(String,String,String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3202900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Validate Calender fare response status code as \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 47
+                }
+              ],
+              "location": "CalenderPricingSteps.validateStatusCode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10610800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Validate the Calender fare response against schema",
+            "match": {
+              "location": "CalenderPricingSteps.validateResponseWithSchema()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_CalenderPricing"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@severity\u003dblocker"
+          },
+          {
+            "name": "@issue\u003d12"
+          },
+          {
+            "name": "@tmsLink\u003d12"
           }
         ]
       }
     ],
-    "name": "As a user i want to fetch Hotel Details for a given city",
+    "name": "As a user i want to retrieve the calendar fares for the given date and route",
     "description": "",
-    "id": "as-a-user-i-want-to-fetch-hotel-details-for-a-given-city",
+    "id": "as-a-user-i-want-to-retrieve-the-calendar-fares-for-the-given-date-and-route",
     "keyword": "Feature",
     "uri": "file:src/main/resources/features/CalenderPricing.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@TC_CalenderPricing",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

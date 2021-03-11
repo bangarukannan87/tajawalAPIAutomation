@@ -1,0 +1,1 @@
+GET URL : https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/6691360/0_1.jpg

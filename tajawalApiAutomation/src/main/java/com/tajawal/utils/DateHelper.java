@@ -9,6 +9,12 @@ import java.util.concurrent.TimeUnit;
 
 public class DateHelper {
 
+    /**
+     * This method returns date value in requested format
+     * @param noOfDays
+     * @param format
+     * @return
+     */
     public static String getFutureDate(int noOfDays, String format){
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(format);
         Calendar calendar = Calendar.getInstance();
@@ -16,6 +22,13 @@ public class DateHelper {
         return simpleDateFormat.format(calendar.getTime());
     }
 
+    /**
+     * This method returns date difference value between two dates
+     * @param startDate
+     * @param secondDate
+     * @param format
+     * @return
+     */
     public static int getDateDifference(String startDate, String secondDate, String format){
         SimpleDateFormat sdf = new SimpleDateFormat(format, Locale.ENGLISH);
         Date firstParseDate ;
@@ -32,14 +45,6 @@ public class DateHelper {
         }finally {
             return (int) diff;
         }
-
-
-//        long diffInMillies = Math.abs(secondDate.getTime() - firstDate.getTime());
-//        long diff = TimeUnit.DAYS.convert(diffInMillies, TimeUnit.MILLISECONDS);
     }
 
-    public static void main(String[] args){
-        System.out.println("TEST");
-        System.out.println(getFutureDate(1,"yyyy-MM-dd"));
-    }
 }

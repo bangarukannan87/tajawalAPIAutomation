@@ -1,0 +1,1125 @@
+{
+    "sortBy": "priority",
+    "distanceShow": false,
+    "countryCode": "SC",
+    "hotels": {
+        "1141265": {
+            "atgHotelId": 1141265,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 35,
+            "name": {
+                "en": "Villa Anse La Blague",
+                "ar": "فيلا أنس لا بلاج"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://hotelcmsimages.s3-eu-west-1.amazonaws.com/hotel/hotels/18000000/17950000/17941600/17941547/bc7740d2_z.jpg",
+            "area": null,
+            "rank": 464,
+            "longitude": 55.779678,
+            "latitude": -4.325847,
+            "distance": 51.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Anse La Blague",
+                "ar": "Anse La Blague"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.23,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                55,
+                59,
+                65,
+                67,
+                70,
+                87,
+                94,
+                97,
+                99,
+                101
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1141267": {
+            "atgHotelId": 1141267,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 35,
+            "name": {
+                "en": "Villas De Mer",
+                "ar": "فيلاز دي مير"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4509111/a_29.jpg",
+            "area": null,
+            "rank": 2000,
+            "longitude": 55.701072,
+            "latitude": -4.324544,
+            "distance": 46.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Grand Anse Beach, Grand'Anse Praslin, Seychelles",
+                "ar": "Grand Anse Beach (غراند آنس براسلين, سيشيل)"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 1.0,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                55,
+                59,
+                65,
+                67,
+                70,
+                82,
+                84,
+                88,
+                97,
+                99,
+                100,
+                108,
+                8000,
+                8007,
+                8023
+            ],
+            "review": {
+                "hotelId": 1141267,
+                "count": 66,
+                "name": "Hotel Villas de Mer",
+                "sourcesCount": 7,
+                "score": 8.7,
+                "scoreDescription": {
+                    "en": "Excellent",
+                    "ar": "ممتاز"
+                },
+                "scoreColor": "#129911"
+            },
+            "topPicks": null
+        },
+        "1359894": {
+            "atgHotelId": 1359894,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 13,
+            "name": {
+                "en": "Villa Luana Yuna",
+                "ar": "Villa Luana Yuna"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://hotelcmsimages.s3-eu-west-1.amazonaws.com/hotel/images/full/c8454d79-75cd-48cb-98c5-7b2e391f3fd2.jpeg",
+            "area": null,
+            "rank": 421,
+            "longitude": 55.52261,
+            "latitude": -4.71437,
+            "distance": 5.1,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Au Cap Pointe Au Sel",
+                "ar": null
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.21,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                13,
+                16,
+                17,
+                18,
+                26,
+                30,
+                94,
+                95,
+                97,
+                100,
+                110,
+                114
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1134098": {
+            "atgHotelId": 1134098,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 13,
+            "name": {
+                "en": "Divers Lodge",
+                "ar": "Divers Lodge"
+            },
+            "starRating": 2,
+            "thumbnailUrl": "https://hotelcmsimages.s3-eu-west-1.amazonaws.com/hotel/images/full/d97e8ca9-cba8-477b-9908-d1b9e324e0ee.jpeg",
+            "area": null,
+            "rank": 365,
+            "longitude": 55.4325,
+            "latitude": -4.60782,
+            "distance": 10.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Beau Vallon Mare Anglaise Mahe Mahe Island",
+                "ar": null
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.18,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                13,
+                16,
+                26,
+                66,
+                68,
+                84,
+                95,
+                97,
+                114
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1141266": {
+            "atgHotelId": 1141266,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 13,
+            "name": {
+                "en": "Casa Tara Villas",
+                "ar": "كازا تارا فيلاز"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4509108/1_1.jpg",
+            "area": null,
+            "rank": 476,
+            "longitude": 55.685238,
+            "latitude": -4.313057,
+            "distance": 46.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Anse Kerlan, Grand'Anse Praslin, Seychelles",
+                "ar": "Anse Kerlan, (غراند آنس براسلين, سيشيل)"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.24,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                5,
+                24,
+                46,
+                63,
+                69,
+                70,
+                82,
+                94,
+                97,
+                99
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1141269": {
+            "atgHotelId": 1141269,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 17,
+            "name": {
+                "en": "Bayview Apartment",
+                "ar": "Bayview Apartment"
+            },
+            "starRating": 2,
+            "thumbnailUrl": "https://az712897.vo.msecnd.net/images/full/4fd4f622-dd9e-48ba-aeac-542060b3adb9.jpeg",
+            "area": null,
+            "rank": 375,
+            "longitude": 55.46603,
+            "latitude": -4.64438,
+            "distance": 4.9,
+            "distanceInMeters": null,
+            "address": {
+                "en": "La Louisela Misere Road",
+                "ar": null
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.19,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                66,
+                94,
+                95,
+                97,
+                99,
+                100
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1351696": {
+            "atgHotelId": 1351696,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 35,
+            "name": {
+                "en": "Chez Muriel Guest House",
+                "ar": "شي ميوريل جيست هاوس"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/5991599/1_1.jpg",
+            "area": null,
+            "rank": 464,
+            "longitude": 55.744081,
+            "latitude": -4.316839,
+            "distance": 49.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Anse Volbert, Baie Sainte Anne, Seychelles",
+                "ar": "Anse Volbert (باي سانت آن, سيشيل)"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.23,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                55,
+                82,
+                97,
+                99
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1141268": {
+            "atgHotelId": 1141268,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 13,
+            "name": {
+                "en": "Acquario Guesthouse",
+                "ar": "Acquario Guesthouse"
+            },
+            "starRating": 2,
+            "thumbnailUrl": "https://hotelcmsimages.s3-eu-west-1.amazonaws.com/hotel/images/full/2d87f38f-3822-4051-969d-e98ccd7cdcd9.jpeg",
+            "area": null,
+            "rank": 410,
+            "longitude": 55.73931,
+            "latitude": -4.31153,
+            "distance": 49.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Anse Petit Court Praslin",
+                "ar": null
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.2,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                59,
+                68,
+                94,
+                95,
+                114
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1141271": {
+            "atgHotelId": 1141271,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 17,
+            "name": {
+                "en": "Carpe Diem",
+                "ar": "Carpe Diem"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4509132/a_5.jpg",
+            "area": null,
+            "rank": 446,
+            "longitude": 55.45441,
+            "latitude": -4.59414,
+            "distance": 10.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Anse Etoile, 248 Anse Etoile, Seychelles",
+                "ar": "Anse Etoile, 248 (آنس إيتويل, سيشيل)"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.22,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                94,
+                99,
+                100,
+                114
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1141270": {
+            "atgHotelId": 1141270,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 13,
+            "name": {
+                "en": "Stephna Residence",
+                "ar": "Stephna Residence"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4509125/a.jpg",
+            "area": null,
+            "rank": 436,
+            "longitude": 55.49792,
+            "latitude": -4.73662,
+            "distance": 6.4,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Les Cannelles Road, Anse La Mouche, Anse Boileau, Seychelles",
+                "ar": "Les Cannelles Road, Anse La Mouche, (آنس بوالو, سيشيل)"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.22,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                13,
+                16,
+                17,
+                18,
+                26,
+                68,
+                95,
+                100,
+                108,
+                112,
+                114
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1141273": {
+            "atgHotelId": 1141273,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 12,
+            "name": {
+                "en": "Le surmer self catering chalets",
+                "ar": "لو سيرمر سيلف كاتيرينج شاليه"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4509145/1_5.jpg",
+            "area": null,
+            "rank": 1370,
+            "longitude": 55.82561,
+            "latitude": -4.358431,
+            "distance": 51.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Anse Reunion, La Digue, Seychelles",
+                "ar": "Anse Reunion, (لا ديج, سيشيل)"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.69,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                55,
+                59,
+                63,
+                66,
+                67,
+                69,
+                82,
+                87,
+                94,
+                97,
+                101,
+                110
+            ],
+            "review": {
+                "hotelId": 1141273,
+                "count": 59,
+                "name": "Le Surmer Self Catering Chalets",
+                "sourcesCount": 3,
+                "score": 9.0,
+                "scoreDescription": {
+                    "en": "Excellent",
+                    "ar": "ممتاز"
+                },
+                "scoreColor": "#129911"
+            },
+            "topPicks": null
+        },
+        "1414173": {
+            "atgHotelId": 1414173,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 17,
+            "name": {
+                "en": "Carana Beach Hotel",
+                "ar": "كارانا بيتش هوتل"
+            },
+            "starRating": 4,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/6486920/1_1-1.jpg",
+            "area": null,
+            "rank": 786,
+            "longitude": 55.45204,
+            "latitude": -4.566065,
+            "distance": 13.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "North East Point, Anse Etoile, Seychelles",
+                "ar": "(أنس إيتوال, سيشيل)  North East Point,"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.39,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                42,
+                46,
+                51,
+                55,
+                62,
+                65,
+                67,
+                69,
+                70,
+                82,
+                87,
+                94,
+                97,
+                99,
+                108,
+                109,
+                120,
+                8000,
+                8002,
+                8007,
+                8008,
+                8011,
+                8023
+            ],
+            "review": {
+                "hotelId": 1414173,
+                "count": 256,
+                "name": "CaranaBeach Hotel",
+                "sourcesCount": 6,
+                "score": 9.0,
+                "scoreDescription": {
+                    "en": "Excellent",
+                    "ar": "ممتاز"
+                },
+                "scoreColor": "#129911"
+            },
+            "topPicks": null
+        },
+        "1141272": {
+            "atgHotelId": 1141272,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 35,
+            "name": {
+                "en": "Lemongrass Lodge",
+                "ar": "ليمونجراس لودج"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4509142/almosafer_5.jpg",
+            "area": null,
+            "rank": 767,
+            "longitude": 55.436221,
+            "latitude": -4.602142,
+            "distance": 11.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "La Batie Road, Beau Vallon, Seychelles",
+                "ar": "La Batie Road, (بيو فالون, سيشيل)"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.38,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                5,
+                24,
+                55,
+                70,
+                82,
+                94,
+                97,
+                99,
+                101
+            ],
+            "review": {
+                "hotelId": 1141272,
+                "count": 311,
+                "name": "Lemongrass Lodge",
+                "sourcesCount": 3,
+                "score": 8.4,
+                "scoreDescription": {
+                    "en": "Very good",
+                    "ar": "جيد جدا"
+                },
+                "scoreColor": "#71BC4C"
+            },
+            "topPicks": null
+        },
+        "1141275": {
+            "atgHotelId": 1141275,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 35,
+            "name": {
+                "en": "Kot Babi Guesthouse",
+                "ar": "كوت بابي جست هاوس"
+            },
+            "starRating": 2,
+            "thumbnailUrl": "https://hotelcmsimages.s3-eu-west-1.amazonaws.com/hotel/hotels/19000000/18050000/18049300/18049239/ef6585dd_b.jpg",
+            "area": null,
+            "rank": 353,
+            "longitude": 55.830392,
+            "latitude": -4.347574,
+            "distance": 53.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "La Passe",
+                "ar": "La Passe"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.18,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                5,
+                55,
+                67,
+                69,
+                82,
+                99,
+                8000,
+                8002,
+                8007,
+                8008,
+                8011,
+                8012,
+                8016,
+                8017,
+                8023
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1173019": {
+            "atgHotelId": 1173019,
+            "chainBrandId": 180,
+            "hotelChainId": 19,
+            "propertyTypeId": 35,
+            "name": {
+                "en": "Le Relax Self-Catering",
+                "ar": "لو ريلاكس سيلف كيترينج"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4676187/a_31.jpg",
+            "area": null,
+            "rank": 578,
+            "longitude": 55.825422,
+            "latitude": -4.359532,
+            "distance": 51.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Anse Reunion, La Digue, Seychelles",
+                "ar": "Anse Reunion (لا ديج, سيشيل)"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.29,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                5,
+                65,
+                82,
+                87,
+                94,
+                97,
+                8000,
+                8002,
+                8007,
+                8008,
+                8009,
+                8011,
+                8023
+            ],
+            "review": {
+                "hotelId": 1173019,
+                "count": 8,
+                "name": "Le Relax Self Catering Apartment",
+                "sourcesCount": 5,
+                "score": 0.0,
+                "scoreDescription": {
+                    "en": "",
+                    "ar": ""
+                },
+                "scoreColor": "#F77D12"
+            },
+            "topPicks": null
+        },
+        "1141274": {
+            "atgHotelId": 1141274,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 13,
+            "name": {
+                "en": "Paodise Guesthouse",
+                "ar": "Paodise Guesthouse"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://hotelcmsimages.s3-eu-west-1.amazonaws.com/hotel/images/full/73706c9d-c0b1-4d08-a899-bc78b8986842.jpeg",
+            "area": null,
+            "rank": 421,
+            "longitude": 55.82884,
+            "latitude": -4.3531,
+            "distance": 52.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Anse Reunion",
+                "ar": null
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.21,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                68,
+                86,
+                113
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1173018": {
+            "atgHotelId": 1173018,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 13,
+            "name": {
+                "en": "La Diguoise Guest House",
+                "ar": "La Diguoise Guest House"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://az712897.vo.msecnd.net/images/full/d7bc93d6-55dc-44d5-8116-f4e3c5d6491a.jpeg",
+            "area": null,
+            "rank": 426,
+            "longitude": 55.82884,
+            "latitude": -4.35846,
+            "distance": 52.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Anse Reunion",
+                "ar": null
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.21,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                54,
+                59,
+                95,
+                97,
+                100,
+                108,
+                112,
+                113
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1141277": {
+            "atgHotelId": 1141277,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 13,
+            "name": {
+                "en": "Island Bungalow",
+                "ar": "Island Bungalow"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://hotelcmsimages.s3-eu-west-1.amazonaws.com/hotel/images/full/80432e52-1d6a-4c02-a3f0-ecce1b878c12.jpeg",
+            "area": null,
+            "rank": 421,
+            "longitude": 55.83143,
+            "latitude": -4.34247,
+            "distance": 53.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Anse Severe",
+                "ar": null
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.21,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                97,
+                113
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1141276": {
+            "atgHotelId": 1141276,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 35,
+            "name": {
+                "en": "Chalet D Anse Reunion",
+                "ar": "شاليه دي أنس ريونيون"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4509149/a_24.jpg",
+            "area": null,
+            "rank": 519,
+            "longitude": 55.827677,
+            "latitude": -4.35292,
+            "distance": 52.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Anse Reunion, La Digue, Seychelles",
+                "ar": "Anse Reunion (لا ديج, سيشيل)"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.26,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                5,
+                55,
+                65,
+                69,
+                70,
+                82,
+                97,
+                99
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1141279": {
+            "atgHotelId": 1141279,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 35,
+            "name": {
+                "en": "Le Triskell",
+                "ar": "لو تريسكيل"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4509179/aaa.png",
+            "area": null,
+            "rank": 509,
+            "longitude": 55.515745,
+            "latitude": -4.698745,
+            "distance": 3.4,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Au Cap, off 5th June Avenue, 98000 Anse aux Pins, Seychelles",
+                "ar": "Au Cap, off 5th June Avenue, 98000 (أنس أو برينس, سيشيل)"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.25,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                5,
+                54,
+                55,
+                57,
+                59,
+                67,
+                69,
+                82,
+                87,
+                94,
+                97,
+                99,
+                100,
+                101,
+                120
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1301021": {
+            "atgHotelId": 1301021,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 17,
+            "name": {
+                "en": "Le Repaire - Boutique Hotel & Restaurant",
+                "ar": "لو ريباير - بوتيك هوتل آند ريستورانت"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://hotelcmsimages.s3-eu-west-1.amazonaws.com/hotel/hotels/6000000/5460000/5457200/5457177/cf685618_z.jpg",
+            "area": null,
+            "rank": 514,
+            "longitude": 55.82679,
+            "latitude": -4.3529,
+            "distance": 52.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Anse Reunion",
+                "ar": "Anse Reunion"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.26,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                55,
+                59,
+                62,
+                65,
+                67,
+                70,
+                82,
+                88,
+                97,
+                108,
+                8000,
+                8007,
+                8008,
+                8011,
+                8023
+            ],
+            "review": {
+                "hotelId": 1301021,
+                "count": 499,
+                "name": "Le Repaire Boutique Hotel",
+                "sourcesCount": 6,
+                "score": 9.0,
+                "scoreDescription": {
+                    "en": "Excellent",
+                    "ar": "ممتاز"
+                },
+                "scoreColor": "#129911"
+            },
+            "topPicks": null
+        },
+        "1141278": {
+            "atgHotelId": 1141278,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 35,
+            "name": {
+                "en": "Belle Des Iles",
+                "ar": "بيل ديز ييل"
+            },
+            "starRating": 2,
+            "thumbnailUrl": "https://hotelcmsimages.s3-eu-west-1.amazonaws.com/hotel/hotels/23000000/22380000/22377400/22377355/00f9b5f8_z.jpg",
+            "area": null,
+            "rank": 453,
+            "longitude": 55.83433,
+            "latitude": -4.361942,
+            "distance": 52.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Anse Reunion, SEZ La Digue",
+                "ar": "Anse Reunion, SEZ La Digue"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.23,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                55,
+                62,
+                67,
+                69,
+                70,
+                82,
+                87,
+                94,
+                97
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1429018": {
+            "atgHotelId": 1429018,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 20,
+            "name": {
+                "en": "Chez Bea Luxury Villa",
+                "ar": "شيز بي لاكشري فيلا"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/6611777/a_1.jpg",
+            "area": null,
+            "rank": 561,
+            "longitude": 55.760134,
+            "latitude": -4.326196,
+            "distance": 49.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Marie-Jeanne Estate, Baie Sainte Anne, Seychelles",
+                "ar": "Marie-Jeanne Estate, (باي سانت آن, سيشيل)"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.28,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                5,
+                42,
+                55,
+                59,
+                65,
+                67,
+                69,
+                70,
+                82,
+                87,
+                94,
+                97,
+                99
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1068544": {
+            "atgHotelId": 1068544,
+            "chainBrandId": 106,
+            "hotelChainId": 197,
+            "propertyTypeId": 31,
+            "name": {
+                "en": "Hilton Seychelles Northolme Resort & Spa",
+                "ar": "هيلتون سيشيليز نورث هولم ريزورت آند سبا"
+            },
+            "starRating": 5,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4231065/4_32.jpg",
+            "area": null,
+            "rank": 1516,
+            "longitude": 55.432516,
+            "latitude": -4.592229,
+            "distance": 12.0,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Glacis, Glacis, Seychelles",
+                "ar": "(جلاكيه, سيشيل)  Glacis"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.76,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                5,
+                38,
+                42,
+                43,
+                54,
+                55,
+                57,
+                62,
+                63,
+                65,
+                69,
+                70,
+                77,
+                80,
+                82,
+                84,
+                87,
+                88,
+                97,
+                99,
+                100,
+                101,
+                108,
+                110,
+                120,
+                122,
+                8000,
+                8002,
+                8007,
+                8008,
+                8009,
+                8010,
+                8011,
+                8023
+            ],
+            "review": {
+                "hotelId": 1068544,
+                "count": 558,
+                "name": "Hilton Seychelles Northolme Resort & Spa",
+                "sourcesCount": 21,
+                "score": 9.1,
+                "scoreDescription": {
+                    "en": "Excellent",
+                    "ar": "ممتاز"
+                },
+                "scoreColor": "#129911"
+            },
+            "topPicks": null
+        },
+        "1283075": {
+            "atgHotelId": 1283075,
+            "chainBrandId": 180,
+            "hotelChainId": 19,
+            "propertyTypeId": 31,
+            "name": {
+                "en": "Berjaya Beau Vallon Bay Resort & Casino",
+                "ar": "بيرجايا بيو فالون باي ريزورت آند كازينو"
+            },
+            "starRating": 4,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/5270514/asd_1.jpg",
+            "area": null,
+            "rank": 764,
+            "longitude": 55.428315,
+            "latitude": -4.617234,
+            "distance": 9.9,
+            "distanceInMeters": null,
+            "address": {
+                "en": "Bel Ombre Road, Beau Vallon, Seychelles",
+                "ar": "Bel Ombre Road, (بيو فالون, سيشيل)"
+            },
+            "distanceScore": 1.0,
+            "priorityScore": 0.38,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                2,
+                5,
+                6,
+                14,
+                24,
+                32,
+                37,
+                38,
+                42,
+                46,
+                51,
+                54,
+                55,
+                62,
+                65,
+                67,
+                69,
+                70,
+                80,
+                87,
+                88,
+                97,
+                99,
+                108,
+                109,
+                110,
+                120,
+                122,
+                8002,
+                8007,
+                8008,
+                8011
+            ],
+            "review": {
+                "hotelId": 1283075,
+                "count": 1701,
+                "name": "Berjaya Beau Vallon Bay Resort & Casino",
+                "sourcesCount": 23,
+                "score": 7.3,
+                "scoreDescription": {
+                    "en": "Good",
+                    "ar": "جيد"
+                },
+                "scoreColor": "#A1CC4F"
+            },
+            "topPicks": null
+        }
+    },
+    "distanceDetails": null,
+    "pagination": {
+        "nextPageId": "CwEBAAx6BaKoiwGmqIsBrICmAaSoiwGkuIoBqqiLAaCApQGoqIsBrqiLAayoiwG60KwBsqiLAbCoiwG2qIsBtpiPAbSoiwG0mI8BuqiLAbioiwG66J4BvqiLAbyoiwG0uK4BhtCcAYC4ggGE0JwBgriCAYyIqQGOmKUBiNibAZjgqAGe2J0BjrDLAYywywHg6KYB_LDTAeKwpQH-sNMB9qidAfjooQH44IEB-uCBAfzggQHywLMB_uCBAcCQowHQyKIB2oifAaS5sQGkkbsBtvGcAbqJowGwwaUBtKmgAYqZrgGA4YEBguGBAYThgQGG4YEBiOGBAYrhgQGY-dABmvnQAZihpAGA-c0BhqnQAYCx0wGCsdMBjvHVAeqRsAHkybAB-qGmAf7hnQH66ZsB1PHRAcjxoAHQ8dEB0vHRAcCRoAHOoZwByOmdAcbZpQHe0bEB0pGeAdChnAHSiakB0NmsAdT5oQGg-qEBtKqBAbzKoQG2qoEBuKqBAbqqgQG8qoEBvqqBAbTKqAGK2qABjvKuAYrisgGImp4BnoqfAeTikQHm4pEB4OKRAeLikQHs4pEB7uKRAeairwHo4pEB6uKRAeDawgH04pEB4trCAfbikQH-6qgB5NrCAfDikQHm2sIB8uKRAfzikQH-4pEB-OKRAfrikQHO4rwBzOK8AcKqgQHCmp8BxqqBAdbawgHIqoEB2NrCAcqqgQHa2sIBzKqBAdzawgHe2sIB3uK8AdTikQHc4rwB1uKRAdrivAHQ4pEB2OK8Ad7KpAHS4pEB1uK8AdzikQHU4rwB3uKRAdLivAHU0qIB2OKRAdKitAHQ4rwB2uKRAa7LtgGE45EBhuORAY6jqwGA45EBguORAYCzpAGM45EBhMuxAY7jkQGI45EBiuORAZTjkQGW45EBmPuoAZDjkQGS45EBlJOyAZKrowGY45EBlIOvAZrjkQHs65wB4rumAfqDowH244QB-OOEAe7b0QH644QB-pueAfTToAH844QB_uOEAc7LugHM07sBzMu6AcrLugHK07sByMu6AcrTswHGy7oBxMu6AcLLugHAy7oB2POuAdzbrAHUy7oB0su6AdDLugGspKgBoISvAbDMowGwvKIBsqSgAbKksQGKpKwBgOSEAYLkhAGE5IQBhuSEAYr8iQGI5IQBiuSEAY78iQGM5IQBjPyJAZL8iQGYhKMBkPyJAZT8iQGevKUBmpSBAZyUgQGWhKsB4oSIAeCEiAHmhIgB5ISIAeqEiAHohIgB7oSIAeyEiAHwhIgB_oSIAfaEpQHSrMwBxuScAcqMqAHE9J4BysSkAcqMpgHCjJ0B1KzMAc7EnwHI5JwB2JSpAcT82QHehIgB3ISIAaDloAGg_aABoOWrAaLloAG4taIBsv2bAb6NoAGw_ZsBtKWhAZSF2QGShdkBkIXZAZ7dywGc3csBmK2kAZydqwGSpa0BkrWjAZzFnQGUtaMB7K22AfKFwgHurbYB6K22AeqttgH6rckB5K22AfityQHmrbYB6o2dAeCttgHkxacB_K3JAeKttgH69aAB8u2eAeyN1QH0rbYB7o3VAfCttgHyrbYBzMWnAcLlpgHI9Z0B3K22Ad6ttgHYrbYB3s2lAd7logHarbYB2tWKAdDVrQHWrbYB2NWKAab2nwGs5p8Bvva-AbjOoQG89r4Buva-Abj2vgG29r4BtPa-AbL2vgGw9r4BirauAZKe2wGC1p8BnJajAZyeoAHgzoIB6LagAeq-oAHi5p4B_L7HAejGnwHm5tYB_o6pAfLerwHyzrsByJajAcj2vgHG9r4BxPa-AcL2vgHA9r4Bwp7PAcCezwHGns8B0O6cAd72oAHEns8B0ratAbi_sQGw56cBtN-lAYyPpQGUz8UBls_FAYDXpAGYz8UBgK-0AYa_1wGep4QB6Ke0AeiPtwHuz58B4M-nAeavowHyt4IB-LeCAfq3ggH6_5wB_LeCAf63ggHA95wBxv_ZAdCfigHE_9kBwv_ZAdDXpwHI_9kBAf3YJD_itxLADobYs9mK2LTZitmEU2V5Y2hlbGxl82NvdW50cvkBLbEyGvm-S0ABMgEyAaD3NgEAAQA=",
+        "pageNo": 0,
+        "pageSize": 25,
+        "totalResultsCount": 377
+    },
+    "geoCoordinate": null
+}

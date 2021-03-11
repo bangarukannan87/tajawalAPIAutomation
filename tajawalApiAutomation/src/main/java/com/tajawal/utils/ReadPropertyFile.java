@@ -26,6 +26,11 @@ public class ReadPropertyFile {
         }
     }
 
+    /**
+     * This method is load the property files data
+     * @param filePath
+     * @return
+     */
     private static Properties loadPropertiesFile(String filePath){
         try {
             properties.load(new FileInputStream(filePath));
@@ -38,9 +43,4 @@ public class ReadPropertyFile {
     public static Properties getUrlProperties(){
         return urlProperties;
     }
-
-    public static void main(String[] args){
-        System.out.println(getUrlProperties().getProperty("TESTING"));
-    }
-
 }

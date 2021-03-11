@@ -1,0 +1,355 @@
+{
+    "sortBy": "priority",
+    "distanceShow": true,
+    "countryCode": "GB",
+    "hotels": {
+        "1798142": {
+            "atgHotelId": 1798142,
+            "chainBrandId": 513,
+            "hotelChainId": 257,
+            "propertyTypeId": 2,
+            "name": {
+                "en": "Imperial College London ",
+                "ar": "Imperial College London"
+            },
+            "starRating": 3,
+            "thumbnailUrl": "http://hotelcms-contents-live.tajawal.com/cfe212c8-010b-413b-9642-936b47dcd275.PNG",
+            "area": {
+                "id": 9996,
+                "nameEn": "Knightsbridge and Belgravia",
+                "nameAr": "Knightsbridge and Belgravia"
+            },
+            "rank": 286,
+            "longitude": -0.1748772,
+            "latitude": 51.4987997,
+            "distance": 3.4,
+            "distanceInMeters": 3398.1,
+            "address": {
+                "en": "Kensington London Sw7 2Az Uk",
+                "ar": null
+            },
+            "distanceScore": 0.924487,
+            "priorityScore": 0.143,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                29,
+                38,
+                40,
+                41,
+                42,
+                43,
+                67,
+                82,
+                97,
+                112
+            ],
+            "review": null,
+            "topPicks": null
+        },
+        "1054869": {
+            "atgHotelId": 1054869,
+            "chainBrandId": 247,
+            "hotelChainId": 51,
+            "propertyTypeId": 17,
+            "name": {
+                "en": "Amba Hotel Marble Arch",
+                "ar": "أمبا هوتل ماربل آرش"
+            },
+            "starRating": 4,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4175163/0_1.jpg",
+            "area": {
+                "id": 10482,
+                "nameEn": "City of Westminster",
+                "nameAr": "مدينة ويستمنستر"
+            },
+            "rank": 2000,
+            "longitude": -0.15654770304104204,
+            "latitude": 51.51440341309781,
+            "distance": 2.1,
+            "distanceInMeters": 2141.7000000000003,
+            "address": {
+                "en": "Bryanston Street, Marble Arch, Westminster Borough, London, W1H 7EH, United Kingdom",
+                "ar": "Bryanston Street, Marble Arch, Westminster Borough, W1H 7EH (لندن, المملكة المتحدة)"
+            },
+            "distanceScore": 0.952407,
+            "priorityScore": 0.1,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                2,
+                5,
+                38,
+                55,
+                57,
+                59,
+                63,
+                65,
+                67,
+                69,
+                70,
+                77,
+                80,
+                88,
+                97,
+                99,
+                8000,
+                8002,
+                8007,
+                8008,
+                8011,
+                8023
+            ],
+            "review": {
+                "hotelId": 1054869,
+                "count": 5839,
+                "name": "Amba Hotel Marble Arch",
+                "sourcesCount": 33,
+                "score": 8.2,
+                "scoreDescription": {
+                    "en": "Very good",
+                    "ar": "جيد جدا"
+                },
+                "scoreColor": "#71BC4C"
+            },
+            "topPicks": null
+        },
+        "1061528": {
+            "atgHotelId": 1061528,
+            "chainBrandId": 113,
+            "hotelChainId": 153,
+            "propertyTypeId": 13,
+            "name": {
+                "en": "Staycity Aparthotels London Heathrow",
+                "ar": "شقق ستاي سيتي لندن هيثرو الفندقية"
+            },
+            "starRating": 4,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4202911/1_18.jpg",
+            "area": {
+                "id": 10967,
+                "nameEn": "Botwell",
+                "nameAr": "Botwell"
+            },
+            "rank": 2000,
+            "longitude": -0.419916,
+            "latitude": 51.503443,
+            "distance": 20.0,
+            "distanceInMeters": 20231.4,
+            "address": {
+                "en": "Highpoint Village, Station Approach, Hillingdon, UB3 4FL, United Kingdom",
+                "ar": "(هيلينغدون, المملكة المتحدة)  Highpoint Village, Station Approach, , UB3 4FL,"
+            },
+            "distanceScore": 0.550413,
+            "priorityScore": 0.1,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                5,
+                38,
+                54,
+                55,
+                57,
+                59,
+                65,
+                67,
+                69,
+                70,
+                85,
+                87,
+                88,
+                97,
+                99,
+                125,
+                8002,
+                8007,
+                8015
+            ],
+            "review": {
+                "hotelId": 1061528,
+                "count": 4888,
+                "name": "Staycity Aparthotels London Heathrow",
+                "sourcesCount": 14,
+                "score": 8.7,
+                "scoreDescription": {
+                    "en": "Excellent",
+                    "ar": "ممتاز"
+                },
+                "scoreColor": "#129911"
+            },
+            "topPicks": null
+        },
+        "1054777": {
+            "atgHotelId": 1054777,
+            "chainBrandId": 106,
+            "hotelChainId": 197,
+            "propertyTypeId": 17,
+            "name": {
+                "en": "London Hilton on Park Lane",
+                "ar": "لندن هيلتون أون بارك لين"
+            },
+            "starRating": 5,
+            "thumbnailUrl": "http://hotelcms-contents-live.tajawal.com/b862ba86-9f75-45f9-beea-3e71d29ad91e.jpg",
+            "area": {
+                "id": 9998,
+                "nameEn": "Mayfair",
+                "nameAr": "مايفير"
+            },
+            "rank": 1999,
+            "longitude": -0.1501698057589973,
+            "latitude": 51.505549639426384,
+            "distance": 1.6,
+            "distanceInMeters": 1580.8,
+            "address": {
+                "en": "22 Park Lane, Westminster Borough, London, W1K 1BE, United Kingdom",
+                "ar": "22 Park Lane, Westminster Borough, W1K 1BE, (لندن, المملكة المتحدة)"
+            },
+            "distanceScore": 0.964871,
+            "priorityScore": 0.09995,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                14,
+                38,
+                39,
+                40,
+                42,
+                44,
+                46,
+                50,
+                54,
+                59,
+                60,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                74,
+                75,
+                77,
+                83,
+                85,
+                87,
+                89,
+                90,
+                92,
+                93,
+                94,
+                96,
+                97,
+                99,
+                101,
+                117,
+                124,
+                8000,
+                8002,
+                8007,
+                8008,
+                8009,
+                8010,
+                8011,
+                8023
+            ],
+            "review": {
+                "hotelId": 1054777,
+                "count": 3748,
+                "name": "London Hilton On Park Lane",
+                "sourcesCount": 40,
+                "score": 8.5,
+                "scoreDescription": {
+                    "en": "Excellent",
+                    "ar": "ممتاز"
+                },
+                "scoreColor": "#129911"
+            },
+            "topPicks": null
+        },
+        "1126191": {
+            "atgHotelId": 1126191,
+            "chainBrandId": 3,
+            "hotelChainId": 9,
+            "propertyTypeId": 17,
+            "name": {
+                "en": "Novotel London Heathrow Airport - M4 Jct 4",
+                "ar": "نوفوتيل مطار لندن هيثرو ام 4 جكت. 4"
+            },
+            "starRating": 4,
+            "thumbnailUrl": "https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4457628/1_1.jpg",
+            "area": {
+                "id": 10053,
+                "nameEn": "Heathrow Villages",
+                "nameAr": "هيثرو"
+            },
+            "rank": 2000,
+            "longitude": -0.454535,
+            "latitude": 51.498237,
+            "distance": 23.0,
+            "distanceInMeters": 22647.300000000003,
+            "address": {
+                "en": "M4J4, Cherry Lane, Heathrow, UB7 9HJ, United Kingdom",
+                "ar": "(هيثرو, المملكة المتحدة)  M4J4, Cherry Lane, UB7 9HJ,"
+            },
+            "distanceScore": 0.496727,
+            "priorityScore": 0.1,
+            "similarityScore": 0.0,
+            "facilityIds": [
+                5,
+                6,
+                38,
+                54,
+                55,
+                59,
+                65,
+                66,
+                67,
+                69,
+                70,
+                77,
+                80,
+                82,
+                85,
+                87,
+                88,
+                97,
+                99,
+                101,
+                105,
+                120,
+                8000,
+                8002,
+                8007,
+                8008,
+                8011,
+                8023
+            ],
+            "review": {
+                "hotelId": 1126191,
+                "count": 9055,
+                "name": "Novotel London Heathrow Airport - M4 Jct 4",
+                "sourcesCount": 22,
+                "score": 7.8,
+                "scoreDescription": {
+                    "en": "Very good",
+                    "ar": "جيد جدا"
+                },
+                "scoreColor": "#71BC4C"
+            },
+            "topPicks": null
+        }
+    },
+    "distanceDetails": {
+        "en": " km from city center of London",
+        "ar": " كم من مركز مدينة ‬لندن"
+    },
+    "pagination": {
+        "nextPageId": "CwEBAAwBAU-M0d_wwElADoXZhNmG2K_ZhkxvbmRv7mxvY2FsaXT5AYByJUxiWsC_AQoBCgGQvwUBAAEA",
+        "pageNo": 1,
+        "pageSize": 5,
+        "totalResultsCount": 7638
+    },
+    "geoCoordinate": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583,
+        "radiusInMeters": 45000
+    }
+}

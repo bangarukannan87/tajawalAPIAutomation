@@ -17,9 +17,9 @@ import java.io.IOException;
 )
 public class CalenderPricingTest {
 
-    @AfterClass
-    private static void tearDown() throws IOException {
-        String[] allure_Command = {"allure", "serve",System.getProperty("user.dir")+"/allure-results"};
+    /*@AfterClass
+    public static void tearDown() throws IOException {
+        String[] allure_Command = {"allure", "serve",System.getProperty("user.dir")+"/target/allure-results"};
         Runtime.getRuntime().exec(allure_Command);
-    }
+    }*/
 }

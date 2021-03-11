@@ -1,0 +1,22 @@
+REQUEST :
+{
+  "leg" : [ {
+    "originId" : "DXB",
+    "destinationId" : "MAA",
+    "departureFrom" : "2021-04-01",
+    "departureTo" : "2021-04-03"
+  }, {
+    "originId" : "MAA",
+    "destinationId" : "DXB",
+    "departureFrom" : "2021-05-01",
+    "departureTo" : "2021-05-06"
+  } ],
+  "cabin" : "Economy",
+  "pax" : {
+    "adult" : 1,
+    "child" : 0,
+    "infant" : 0
+  },
+  "stops" : [ ],
+  "airline" : [ ]
+}

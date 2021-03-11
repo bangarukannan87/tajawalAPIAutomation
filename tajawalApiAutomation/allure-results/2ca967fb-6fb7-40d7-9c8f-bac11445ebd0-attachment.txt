@@ -1,0 +1,1 @@
+GET URL : https://s3-eu-west-1.amazonaws.com/tjwlhotelcms/hotel_cms_data_live/hotel_images/4062321/sheraton_new_delhi_hotel_-_member_of_itc_hotel_group_2.jpg

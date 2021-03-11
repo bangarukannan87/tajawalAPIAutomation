@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"pretty", "html:target/html-reports/CalenderPricingTest",
-                "json:target/html-reports/CalenderPricing.json"},
-        features = {"src/main/resources/features/*.feature"},
+        plugin = {"pretty", "html:target/html-reports/RegressionTest",
+                "json:target/html-reports/RegressionTest.json"},
+        features = {"src/main/resources/features/"},
         glue = {"com.tajawal.step.definition","com.tajawal.utils"},
         tags = {"@Regression"}
 )
