@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c061226-ffa9-4f66-b1df-37a0281d65f4" name="Default Changelist" comment="" />
+    <list default="true" id="0c061226-ffa9-4f66-b1df-37a0281d65f4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/constants/FrameworkConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/constants/FrameworkConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/DistanceDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/DistanceDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/GeoCoordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/GeoCoordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/GetHotelDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/GetHotelDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/Hotels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/Hotels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/Pagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/Pagination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/ScoreDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/ScoreDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/_1042560.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/_1042560.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/CalenderPricingSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/CalenderPricingSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/HotelDetailsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/HotelDetailsSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/ValidateStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tajawal/utils/HttpMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tajawal/utils/HttpMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/CalenderPricing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/CalenderPricing.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/HotelDetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/HotelDetails.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runCukes/HotelDetailsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runCukes/HotelDetailsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runCukes/hotelDetails/HotelDetailsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/constants/FrameworkConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tajawal/constants/FrameworkConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/pojo/getHotelDetails/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/pojo/getHotelDetails/Area.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/pojo/getHotelDetails/DistanceDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/pojo/getHotelDetails/GeoCoordinate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/pojo/getHotelDetails/GetHotelDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/pojo/getHotelDetails/Hotels.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/pojo/getHotelDetails/Name.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/pojo/getHotelDetails/Pagination.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/pojo/getHotelDetails/Review.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/pojo/getHotelDetails/ScoreDescription.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/pojo/getHotelDetails/_1042560.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/step/definition/CalenderPricingSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tajawal/step/definition/CalenderPricingSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/step/definition/HotelDetailsSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tajawal/step/definition/HotelDetailsSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/step/definition/ValidateStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tajawal/utils/HttpMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tajawal/utils/HttpMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/CalenderPricing.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/CalenderPricing.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/HotelDetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/HotelDetails.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/html-reports/HotelDetailsTest.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/html-reports/HotelDetailsTest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/html-reports/HotelDetailsTest/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/html-reports/HotelDetailsTest/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runCukes/HotelDetailsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runCukes/HotelDetailsTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,10 +57,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/utils/HttpMethods.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="136">
+              <caret line="118" column="102" selection-start-line="118" selection-start-column="102" selection-end-line="118" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/features/HotelDetails.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runCukes/hotelDetails/HotelDetailsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,22 +87,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/utils/ReadPropertyFile.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runCukes/regression/RegressionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/CalenderPricingSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-442">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/HotelDetailsSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="176" column="2" selection-start-line="176" selection-end-line="178" selection-end-column="7" />
+            <state relative-caret-position="272">
+              <caret line="160" selection-start-line="160" selection-end-line="160" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,36 +111,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/service/implementation/CalenderPricingService.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runCukes/calenderPricing/CalenderPricingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="13" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2317#2318#0" expanded="true" />
-                <element signature="e#2340#2341#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/utils/ScenarioHooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/utils/HttpMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/utils/Utility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/features/CalenderPricing.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/utils/DateHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -113,10 +186,17 @@
       <find>parse</find>
       <find>parseInt</find>
       <find>@param</find>
+      <find>user.di</find>
+      <find>cucum</find>
+      <find>IMAGE</find>
+      <find>allure-cucumber4-jvm</find>
     </findStrings>
     <replaceStrings>
       <replace>eachHotel.getValue())</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -126,20 +206,32 @@
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/STAGING_config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/tajawal/utils/PageFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tajawal/constants/FrameworkConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/CommonSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/runCukes/HotelDetailsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/ValidateStep.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/features/HotelDetails.feature" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tajawal/utils/RegexHelper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config/STAGING_config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tajawal/utils/HttpMethods.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/HotelDetailsSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tajawal/service/implementation/CalenderPricingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tajawal/utils/DateHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/features/CalenderPricing.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tajawal/schemas/Actual.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/example.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/example-schema.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tajawal/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Actual.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/CalendarPriceSchema.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tajawal/constants/FrameworkConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tajawal/constants/CalenderPricingConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/CommonSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tajawal/utils/Utility.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tajawal/schemas/CalendarPriceSchema.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/CalenderPricingSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tajawal/utils/ScenarioHooks.java" />
+        <option value="$PROJECT_DIR$/src/test/java/runCukes/CalenderPricingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/runCukes/HotelDetailsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tajawal/utils/HttpMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/HotelDetailsSteps.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/runCukes/regression/RegressionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/features/HotelDetails.feature" />
+        <option value="$PROJECT_DIR$/src/main/resources/features/CalenderPricing.feature" />
       </list>
     </option>
   </component>
@@ -148,6 +240,9 @@
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -171,96 +266,6 @@
               <item name="tajawalApiAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="tajawalApiAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tajawalApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tajawalApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tajawalApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tajawalApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tajawal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tajawalApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tajawalApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tajawal" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tajawalApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tajawalApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tajawal" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tajawalApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tajawalApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tajawal" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="request" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tajawalApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tajawalApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tajawal" type="462c0819:PsiDirectoryNode" />
-              <item name="definition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tajawalApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tajawalApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tajawal" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tajawalApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tajawalApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tajawalApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tajawalApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tajawalApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tajawalApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tajawalApiAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tajawalApiAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,6 +274,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tajawalApiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tajawalApiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runCukes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tajawalApiAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tajawalApiAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,7 +296,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615465758772" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615489209967" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/tajawal/step/definition" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -286,7 +304,11 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Career\Seera_Coding_Challenge\tajawalApiAutomation\src\main\java\com\tajawal\schemas" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Career\Seera_Coding_Challenge\tajawalApiAutomation\src\main\resources" />
       <recent name="F:\Career\Seera_Coding_Challenge\tajawalApiAutomation\src\main\resources\config" />
       <recent name="F:\Career\Seera_Coding_Challenge\tajawalApiAutomation\src\main\resources\features" />
     </key>
@@ -303,13 +325,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Retrieve the Calender fares for the round trip / multi-city routes">
-    <configuration name="CalenderPricingService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tajawal.service.implementation.CalenderPricingService" />
+  <component name="RunManager" selected="JUnit.HotelDetailsTest">
+    <configuration name="CalenderPricingSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tajawal.step.definition.CalenderPricingSteps" />
       <module name="tajawalApiAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tajawal.service.implementation.*" />
+          <option name="PATTERN" value="com.tajawal.step.definition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -317,12 +339,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalenderPricingSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tajawal.step.definition.CalenderPricingSteps" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tajawal.Main" />
       <module name="tajawalApiAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tajawal.step.definition.*" />
+          <option name="PATTERN" value="com.tajawal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,51 +371,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Retrieve the Calender fares for the round trip / multi-city routes" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/CalenderPricing.feature" />
-      <option name="GLUE" value="com.tajawal.step.definition" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="CalenderPricingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tajawalApiAutomation" />
-      <option name="NAME_FILTER" value="^Retrieve the Calender fares for the round trip \/ multi\-city routes$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Retrieve the Calender fares for the round trip \/ multi\-city routes$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Retrieve the Calender fares for the round trip / multi-city routes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="runCukes.calenderPricing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="runCukes.calenderPricing" />
+      <option name="MAIN_CLASS_NAME" value="runCukes.calenderPricing.CalenderPricingTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify the valid image display to each hotel in response" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="3" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/CalenderPricing.feature" />
-      <option name="GLUE" value="com.tajawal.step.definition" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+    <configuration name="HotelDetailsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tajawalApiAutomation" />
-      <option name="NAME_FILTER" value="^Verify the valid image display to each hotel in response$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Verify the valid image display to each hotel in response$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify the valid image display to each hotel in response" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="PATTERN" value="runCukes.calenderPricing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="runCukes.hotelDetails" />
+      <option name="MAIN_CLASS_NAME" value="runCukes.hotelDetails.HotelDetailsTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Retrieve the Calender fares for the round trip / multi-city routes" />
+        <item itemvalue="JUnit.HotelDetailsTest" />
+        <item itemvalue="JUnit.CalenderPricingTest" />
         <item itemvalue="Cucumber java.Scenario: Retrieve the Calender fares for the one way routes" />
-        <item itemvalue="Cucumber java.Scenario: Verify the valid image display to each hotel in response" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CalenderPricingSteps" />
-        <item itemvalue="Application.CalenderPricingService" />
       </list>
     </recent_temporary>
   </component>
@@ -411,41 +423,70 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Retrieve_the_Calender_fares_for_the_one_way_routes - 2021.03.11 at 14h 26m 19s.xml">
-      <configuration name="Scenario: Retrieve the Calender fares for the one way routes" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="CalenderPricingTest - 2021.03.11 at 20h 20m 24s.xml">
+      <configuration name="CalenderPricingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Retrieve_the_Calender_fares_for_the_round_trip___multi-city_routes - 2021.03.11 at 14h 26m 48s.xml">
-      <configuration name="Scenario: Retrieve the Calender fares for the round trip / multi-city routes" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="CalenderPricingTest - 2021.03.11 at 20h 25m 26s.xml">
+      <configuration name="CalenderPricingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Retrieve_the_Calender_fares_for_the_round_trip___multi-city_routes - 2021.03.11 at 14h 29m 46s.xml">
-      <configuration name="Scenario: Retrieve the Calender fares for the round trip / multi-city routes" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="CalenderPricingTest - 2021.03.11 at 20h 26m 34s.xml">
+      <configuration name="CalenderPricingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Retrieve_the_Calender_fares_for_the_round_trip___multi-city_routes - 2021.03.11 at 14h 31m 22s.xml">
-      <configuration name="Scenario: Retrieve the Calender fares for the round trip / multi-city routes" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="CalenderPricingTest - 2021.03.11 at 20h 26m 48s.xml">
+      <configuration name="CalenderPricingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Retrieve_the_Calender_fares_for_the_round_trip___multi-city_routes - 2021.03.11 at 14h 33m 25s.xml">
-      <configuration name="Scenario: Retrieve the Calender fares for the round trip / multi-city routes" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="CalenderPricingTest - 2021.03.11 at 20h 31m 53s.xml">
+      <configuration name="CalenderPricingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Retrieve_the_Calender_fares_for_the_round_trip___multi-city_routes - 2021.03.11 at 14h 34m 12s.xml">
-      <configuration name="Scenario: Retrieve the Calender fares for the round trip / multi-city routes" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="CalenderPricingTest - 2021.03.11 at 20h 32m 54s.xml">
+      <configuration name="CalenderPricingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Retrieve_the_Calender_fares_for_the_round_trip___multi-city_routes - 2021.03.11 at 14h 37m 27s.xml">
-      <configuration name="Scenario: Retrieve the Calender fares for the round trip / multi-city routes" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="CalenderPricingTest - 2021.03.11 at 20h 37m 09s.xml">
+      <configuration name="CalenderPricingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Retrieve_the_Calender_fares_for_the_round_trip___multi-city_routes - 2021.03.11 at 14h 37m 42s.xml">
-      <configuration name="Scenario: Retrieve the Calender fares for the round trip / multi-city routes" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="CalenderPricingTest - 2021.03.11 at 20h 38m 33s.xml">
+      <configuration name="CalenderPricingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Retrieve_the_Calender_fares_for_the_round_trip___multi-city_routes - 2021.03.11 at 14h 40m 05s.xml">
-      <configuration name="Scenario: Retrieve the Calender fares for the round trip / multi-city routes" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="CalenderPricingTest - 2021.03.11 at 20h 47m 20s.xml">
+      <configuration name="CalenderPricingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Retrieve_the_Calender_fares_for_the_round_trip___multi-city_routes - 2021.03.11 at 14h 40m 22s.xml">
-      <configuration name="Scenario: Retrieve the Calender fares for the round trip / multi-city routes" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="HotelDetailsTest - 2021.03.11 at 21h 08m 53s.xml">
+      <configuration name="HotelDetailsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24963397" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328594" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.328594" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39968404" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="SonarLint" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.328594" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.328594" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24963397" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -473,7 +514,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -498,39 +539,21 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/HotelDetailsSteps.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/HotelDetailsSteps.java</url>
-          <line>36</line>
+          <line>33</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/HotelDetailsSteps.java</url>
-          <line>85</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/HotelDetailsSteps.java</url>
-          <line>113</line>
+          <line>93</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/HotelDetailsSteps.java</url>
-          <line>121</line>
+          <line>101</line>
           <properties />
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/HotelDetailsSteps.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/tajawal/utils/DateHelper.java</url>
@@ -545,22 +568,22 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/CalenderPricingSteps.java</url>
-          <line>41</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tajawal/utils/Utility.java</url>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="20" />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/CalenderPricingSteps.java</url>
-          <line>47</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tajawal/utils/HttpMethods.java</url>
+          <line>17</line>
           <properties />
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/CalenderPricingSteps.java</url>
-          <line>61</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tajawal/utils/ScenarioHooks.java</url>
+          <line>14</line>
           <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -602,6 +625,41 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>InputStream input = new FileInputStream(schemaPath);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>jsonStream = inputStreamFromClasspath(schemaPath)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Thread.currentThread().getContextClassLoader().getResourceAsStream(path).read()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>System.getProperty(&quot;user.dir&quot;)+&quot;/src/main/java/com/tajawal/schemas/Actual.json&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>System.getProperty(&quot;user.dir&quot;)+&quot;/src/main/java/schemas/Actual.json&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>System.getProperty(&quot;user.dir&quot;)+&quot;/src/main/java/schemas/Actual.json&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>System.getProperty(&quot;user.dir&quot;)+&quot;/src/main/java/schemas/Actual.json</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>&quot;1=CALENDER PRINCING DATES ARE OUT OF RANGE -&quot;
                         +eachResponse.getKey()+&quot; : &quot;+eachResponse.getValue()</expression-string>
         <language-id>JAVA</language-id>
@@ -617,45 +675,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>response.getBody().jsonPath().get()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>response.getBody().jsonPath().get().toString()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>actualFirstDateDiff&lt;=expectedFirstDate &amp;&amp; expectedLastDate &gt;= actualFirstDateDiff</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>actualFirstDate&gt;=firstDateDiff &amp;&amp; actualLastDate &lt;= firstDateDiff</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>eachResponse.getKey().toString().split(&quot;_&quot;)[0]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>RestAssured.given().headers(headers).body(requestData).post(endpoint).asString()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>headers.put(&quot;Content-Type&quot;,&quot;application/json&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/CommonSteps.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -667,19 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/constants/FrameworkConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,37 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1462">
           <caret line="122" column="6" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runCukes/HotelDetailsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/ValidateStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/features/HotelDetails.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
@@ -793,16 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/HotelDetailsSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="176" column="2" selection-start-line="176" selection-end-line="178" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/service/implementation/CalenderPricingService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -825,16 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/utils/HttpMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.8.1/cucumber-core-4.8.1.jar!/cucumber/runtime/Utils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -842,20 +800,293 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/features/CalenderPricing.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/example-schema.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="79" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
+        <state relative-caret-position="17">
+          <caret line="1" column="59" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/example.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" selection-start-line="11" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Actual.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/CalendarPriceSchema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/schemas/Actual.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/constants/FrameworkConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0.jar!/com/jayway/restassured/internal/RestAssuredResponseOptionsGroovyImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="239" selection-start-line="239" selection-end-line="239" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0.jar!/com/jayway/restassured/internal/RestAssuredResponseOptionsImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="187" selection-start-line="187" selection-end-line="187" />
+          <folding>
+            <element signature="e#5607#5608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/CommonSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/ValidateStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/constants/CalenderPricingConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/html-reports/HotelDetailsTest/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/html-reports/CalenderPricingTest/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/schemas/CalendarPriceSchema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/_1042560.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/Area.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/DistanceDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/GeoCoordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/GetHotelDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/Hotels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/Name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/Pagination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/pojo/getHotelDetails/response/Review.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/CalenderPricingSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="-877">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/utils/ScenarioHooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/utils/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/utils/HttpMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="118" column="102" selection-start-line="118" selection-start-column="102" selection-end-line="118" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runCukes/hotelDetails/HotelDetailsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tajawal/step/definition/HotelDetailsSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="160" selection-start-line="160" selection-end-line="160" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runCukes/calenderPricing/CalenderPricingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runCukes/regression/RegressionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/features/HotelDetails.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/features/CalenderPricing.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>

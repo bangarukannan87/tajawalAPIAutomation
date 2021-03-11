@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runCukes.HotelDetailsTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.947 sec <<< FAILURE!
+Verify the hotel name in arabic language(As a user i want to fetch Hotel Details for a given city)  Time elapsed: 0.973 sec  <<< ERROR!
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:592)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.tajawal.step.definition.HotelDetailsSteps.validatePageSizeInResponse(HotelDetailsSteps.java:61)
+	at ?.Validate pagesize "" in response(file:src/main/resources/features/HotelDetails.feature:29)
+

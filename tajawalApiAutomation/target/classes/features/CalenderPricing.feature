@@ -1,14 +1,12 @@
-@TC_CalenderPricing
-Feature: As a user i want to fetch Hotel Details for a given city
 
+Feature: As a user i want to fetch Hotel Details for a given city
+  @TC_CalenderPricing
   Scenario Outline: Retrieve the Calender fares for the one way routes
     Given I want to retrieve fares for "<SECTOR>", "<TRAVELDATE>", "<CABIN>", "<PAX_TYPE>", "<STOPS>" and "<AIRLINES>"
+    Then Validate Calender fare response status code as "200"
     Then Validate the response calender price date for the given "<TRAVELDATE>"
-#  String sector, String travelDates, String cabin, String passengerType,
-#  String stops, String airlines
-#    Then Validate response status code as "200"
-##    Then Validate "<CITY>" in hotel name or address
-#    Then Validate the image appearing for each hotel
+    Then Validate the Calender fare response against schema
+
     Examples:
       | SECTOR  | TRAVELDATE | CABIN   | PAX_TYPE          | STOPS | AIRLINES |
       | DXB-MAA | 20-22      | Economy | ADT-1,CHD-0,INF-0 |       |          |
@@ -18,11 +16,10 @@ Feature: As a user i want to fetch Hotel Details for a given city
 
   Scenario Outline: Retrieve the Calender fares for the round trip / multi-city routes
     Given I want to retrieve fares for "<SECTOR>", "<TRAVELDATE>", "<CABIN>", "<PAX_TYPE>", "<STOPS>" and "<AIRLINES>"
-#  String sector, String travelDates, String cabin, String passengerType,
-#  String stops, String airlines
-#    Then Validate response status code as "200"
-##    Then Validate "<CITY>" in hotel name or address
-#    Then Validate the image appearing for each hotel
+    Then Validate Calender fare response status code as "200"
+    Then Validate the response calender price date for the given "<TRAVELDATE>"
+    Then Validate the Calender fare response against schema
+
     Examples:
       | SECTOR          | TRAVELDATE  | CABIN   | PAX_TYPE          | STOPS | AIRLINES |
       | DXB-MAA/MAA-DXB | 20-22/50-55 | Economy | ADT-1,CHD-0,INF-0 |       |          |

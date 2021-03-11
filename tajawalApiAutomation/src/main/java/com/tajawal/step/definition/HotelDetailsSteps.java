@@ -3,14 +3,14 @@ package com.tajawal.step.definition;
 import com.jayway.restassured.response.Response;
 import com.tajawal.utils.HttpMethods;
 import com.tajawal.utils.ReadPropertyFile;
-
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Assert;
 
-import java.util.*;
-import java.util.concurrent.atomic.AtomicInteger;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.stream.IntStream;
 
 import static java.lang.Integer.parseInt;
@@ -23,15 +23,12 @@ import static java.lang.Integer.parseInt;
 public class HotelDetailsSteps {
     private Response response;
 
-    /*
+    /**
      * This method is to initiate a GET call method for HOTEL DETAILS service
-     *
      * @param city
      * @param pageSize
-     *
-     * @author Kannan
-     * */
-    @cucumber.api.java.en.Given("I want fetch the hotel details for the {string} with {string}")
+     */
+    @Given("I want fetch the hotel details for the {string} with {string}")
     public void callHotelDetails(String city, String pageSize) {
         System.out.println(city);
         System.out.println(ReadPropertyFile.getUrlProperties().getProperty("TESTING"));
@@ -42,58 +39,38 @@ public class HotelDetailsSteps {
         if (StringUtils.isNotBlank(pageSize))
             param.put("pageSize", pageSize);
         response = HttpMethods.callGETMethod(header, param, ReadPropertyFile.getUrlProperties().getProperty("HOTEL_DETAILS"));
-        System.out.println("TESTING");
-//        validateArabicLanguage();
-        validateTheHotelImage();
     }
 
-    /*
+    /**
      * This method is to validate the response statuscode to be 200
-     *
-     * @author Kannan
-     * */
-    @cucumber.api.java.en.Then("Validate response status code as {string}")
+     * @param statusCode
+     */
+    @Then("Validate response status code as {string}")
     public void validateStatusCode(String statusCode) {
         Assert.assertTrue(String.format("STATUS CODE VALIDATION FAILED : %d", response.getStatusCode())
                 , response.statusCode() == parseInt(statusCode));
     }
 
-    /*
+
+    /**
      * This method is to validate the number of hotels in response based on pageSize paramter
-     *
      * @param expectedPageSize
-     *
-     * @author Kannan
-     * */
-    @cucumber.api.java.en.Then("Validate pagesize {string} in response")
+     */
+    @Then("Validate pagesize {string} in response")
     public void validatePageSizeInResponse(String expectedPageSize) {
         Map<String, Object> hotels = response.jsonPath().get("hotels");
         Assert.assertEquals("Mismatch in page size ", parseInt(expectedPageSize), hotels.size());
     }
 
-    /*
+
+    /**
      * This method is to validate the city name to be present in each Hotel name or Hotel address field in response(Assumption)
-     *
      * @param city
-     *
-     * @author Kannan
-     * */
-    @cucumber.api.java.en.Then("Validate {string} in hotel name or address")
+     */
+    @Then("Validate {string} in hotel name or address")
     public void validateCity(String city) {
         HashMap<String, Object> hotels = response.jsonPath().get("hotels");
         ArrayList<String> errorHotels = new ArrayList<>();
-        /*for(Map.Entry<String, Object> eachHotel : hotels.entrySet()){
-            if((((HashMap<String, Object>) eachHotel.getValue()).keySet().contains("name")) &&
-                    !((HashMap<String, Object>) eachHotel.getValue()).get("name").toString().toUpperCase().contains(city)){
-                errorHotels.add(((HashMap<String, Object>) eachHotel.getValue()).get("name").toString());
-                System.out.println(((HashMap<String, Object>) eachHotel.getValue()).get("name").toString());
-            } else if((((HashMap<String, Object>) eachHotel.getValue()).keySet().contains("address")) &&
-                    !((HashMap<String, Object>) eachHotel.getValue()).get("address").toString().toUpperCase().contains(city)){
-                errorHotels.add(((HashMap<String, Object>) eachHotel.getValue()).get("address").toString());
-                System.out.println(((HashMap<String, Object>) eachHotel.getValue()).get("address").toString());
-            }
-        }*/
-
         hotels.entrySet().parallelStream().forEach(eachHotel -> {
             if ((((HashMap<String, Object>) eachHotel.getValue()).keySet().contains("name")) &&
                     !((HashMap<String, Object>) eachHotel.getValue()).get("name").toString().toUpperCase().contains(city)) {
@@ -109,6 +86,9 @@ public class HotelDetailsSteps {
                 " HERE ARE THE LIST, \n" + errorHotels, errorHotels.size() == 0);
     }
 
+    /**
+     *
+     */
     @Then("Validate the hotelname in arabic")
     public void validateArabicLanguage() {
         Map<String, String> hotelsMap = response.getBody().jsonPath().getMap("hotels");
@@ -118,7 +98,7 @@ public class HotelDetailsSteps {
             HashMap<String, String> eachHotelName = eachHotelData.get("name");
             String eachName = eachHotelName.get("ar");
 
-            AtomicInteger counter = new AtomicInteger(0);
+//            AtomicInteger counter = new AtomicInteger(0);
             if(!(IntStream.range(0,eachName.length()).
                     filter( index -> Character.UnicodeBlock.of(eachName.codePointAt(index)) == Character.UnicodeBlock.ARABIC).
                     count()==eachName.length())){
@@ -134,7 +114,10 @@ public class HotelDetailsSteps {
 
     }
 
-
+    /**
+     * This method is to validate the error message in response
+     * @param errorMessage
+     */
     @Then("Validate the error message {string} in response")
     public void validateTheErrorMessageInResponse(String errorMessage) {
         HashMap responseMap = response.getBody().jsonPath().get();
@@ -145,6 +128,9 @@ public class HotelDetailsSteps {
             Assert.assertTrue("ERROR KEY NOT PRESENT IN RESPONSE",false);
     }
 
+    /**
+     * This method is to validate the image in each HOTEL in response
+     */
     @Then("Validate the image appearing for each hotel")
     public void validateTheHotelImage() {
         HashMap<String, Object> hotelMap = response.getBody().jsonPath().get("hotels");
@@ -165,16 +151,10 @@ public class HotelDetailsSteps {
             filteredDetails.put(((HashMap<String,String>)(((HashMap<String,Object>)eachHotel.getValue()).get("name"))).get("en")
                     ,((HashMap<String,Object>)eachHotel.getValue()).get("thumbnailUrl").toString());
         });
-        System.out.println(filteredDetails);
+        Assert.assertTrue("IMAGE IS NOT ACCESSABLE FOR THE HOTELS -"+filteredDetails,filteredDetails.size()==0);
 
 
     }
 
-//    @Then("Validate the image appearing for each hotel")
-    public void validateTheImageAppearingForEachHotel() {
-    }
 
-/*    @Given("I want to retrieve fares for {string}, {string}, {string}, {string}, {string} and {string}")
-    public void iWantToRetrieveFaresForAnd(String arg0, String arg1, String arg2, String arg3, String arg4, String arg5) {
-    }*/
 }

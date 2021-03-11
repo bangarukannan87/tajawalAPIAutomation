@@ -1,4 +1,4 @@
-@TC_HotelDetails
+
 Feature: As a user i want to fetch Hotel Details for a given city
 
   Scenario Outline: Verify the valid image display to each hotel in response
@@ -9,8 +9,8 @@ Feature: As a user i want to fetch Hotel Details for a given city
     Examples:
       | CITY   | PAGE_SIZE |
       | DUBAI  | 10        |
-      | DELHI  |           |
-      | LONDON | 5         |
+#      | DELHI  |           |
+#      | LONDON | 5         |
 
 
   Scenario Outline: Verify the number of Hotel response as per the request
@@ -33,7 +33,7 @@ Feature: As a user i want to fetch Hotel Details for a given city
       | SYDNEY  | 10        |
       | CHENNAI |           |
 
-
+  @TC_HotelDetails
   Scenario Outline: Test the error scenarios with invalid dataset
     Given I want fetch the hotel details for the "<CITY>" with "<PAGE_SIZE>"
     Then Validate response status code as "400"
