@@ -15,16 +15,23 @@ JAVA 1.8, Maven 3+ and Allure needs to be installed
 6. Sample Allure and Cucumber report screenshots are present under sample-reports/
 
 ## Steps to execute the test
-1. Different methods to generate Cucumber report
-  i. To generate report with specific functionality
+1. Below are the various options to execute the testcases and generate Cucumber report,
+   - To generate report with specific functionality
+
   ```mvn clean test -P cucumberReport-test -Dtest.tagnames=calenderPricing```
-  ii. To generate report with specific environment (default - STAGING environment)
+   - To generate report with specific environment (default - STAGING environment)
+
   ```mvn clean test -P cucumberReport-test -Dtest.tagnames=hotelDetails -Dtest.environment=STAGING```
-  iii. To generate report for all cases
+   - To generate report for all cases
+
   ```mvn clean test -P cucumberReport-test```
- **Note:**
+
+   **Note:**
   Cucumber reports will be created under target/html-reports/*/index.html Eg.(target/html-reports/HotelDetailsTest/index.html
+
 2. To generate Allure report, please use the profile name(-P option) as 'allureReport-test'. All the above mentioned ways are applicable,
+
   ```mvn clean test -P allureReport-test -Dtest.tagnames=calenderPricing```
+
  **Note:**
   To open Allure report, please type 'allure serve' command from terminal
