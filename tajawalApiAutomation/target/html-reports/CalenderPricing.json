@@ -3,11 +3,11 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-03-11T21:37:57.806Z",
+        "start_timestamp": "2021-03-12T01:04:50.077Z",
         "before": [
           {
             "result": {
-              "duration": 1020700,
+              "duration": 659400,
               "status": "passed"
             },
             "match": {
@@ -30,7 +30,7 @@
               "RESPONSE :\n{\n    \"2021-04-03\": {\n        \"price\": 350,\n        \"updatedAt\": \"2021-03-09T22:28:45.196Z\"\n    },\n    \"2021-04-02\": {\n        \"price\": 350,\n        \"updatedAt\": \"2021-03-09T18:06:58.893Z\"\n    },\n    \"2021-04-01\": {\n        \"price\": 393.04,\n        \"updatedAt\": \"2021-03-11T08:08:23.515Z\"\n    }\n}"
             ],
             "result": {
-              "duration": 3540290600,
+              "duration": 3938402100,
               "status": "passed"
             },
             "line": 9,
@@ -68,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 3791500,
+              "duration": 3476900,
               "status": "passed"
             },
             "line": 10,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 166564800,
+              "duration": 164287000,
               "status": "passed"
             },
             "line": 11,
@@ -122,11 +122,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-11T21:38:01.583Z",
+        "start_timestamp": "2021-03-12T01:04:54.245Z",
         "before": [
           {
             "result": {
-              "duration": 63800,
+              "duration": 49000,
               "status": "passed"
             },
             "match": {
@@ -149,7 +149,7 @@
               "RESPONSE :\n{\n    \"2021-04-04\": {\n        \"price\": 1650,\n        \"updatedAt\": \"2021-03-06T00:34:13.697Z\"\n    },\n    \"2021-04-02\": {\n        \"price\": 1570,\n        \"updatedAt\": \"2021-03-11T15:08:49.391Z\"\n    }\n}"
             ],
             "result": {
-              "duration": 847414800,
+              "duration": 920048100,
               "status": "passed"
             },
             "line": 9,
@@ -187,7 +187,7 @@
           },
           {
             "result": {
-              "duration": 2944800,
+              "duration": 3764800,
               "status": "passed"
             },
             "line": 10,
@@ -205,7 +205,7 @@
           },
           {
             "result": {
-              "duration": 16992500,
+              "duration": 17486400,
               "status": "passed"
             },
             "line": 11,
@@ -241,11 +241,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-11T21:38:02.469Z",
+        "start_timestamp": "2021-03-12T01:04:55.203Z",
         "before": [
           {
             "result": {
-              "duration": 74300,
+              "duration": 340200,
               "status": "passed"
             },
             "match": {
@@ -268,7 +268,7 @@
               "RESPONSE :\n[\n    \n]"
             ],
             "result": {
-              "duration": 774872700,
+              "duration": 757293100,
               "status": "passed"
             },
             "line": 9,
@@ -306,7 +306,7 @@
           },
           {
             "result": {
-              "duration": 3252000,
+              "duration": 2238900,
               "status": "passed"
             },
             "line": 10,
@@ -324,7 +324,7 @@
           },
           {
             "result": {
-              "duration": 5298600,
+              "duration": 4127700,
               "status": "passed"
             },
             "line": 11,
@@ -360,11 +360,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-11T21:38:03.266Z",
+        "start_timestamp": "2021-03-12T01:04:55.979Z",
         "before": [
           {
             "result": {
-              "duration": 93500,
+              "duration": 73300,
               "status": "passed"
             },
             "match": {
@@ -387,7 +387,7 @@
               "RESPONSE :\n{\n    \"2021-04-02_2021-05-03\": {\n        \"price\": 1165,\n        \"updatedAt\": \"2020-11-22T10:55:17.146Z\"\n    },\n    \"2021-04-02_2021-05-02\": {\n        \"price\": 889,\n        \"updatedAt\": \"2021-03-02T09:35:59.775Z\"\n    },\n    \"2021-04-01_2021-05-05\": {\n        \"price\": 860.5,\n        \"updatedAt\": \"2021-03-01T18:42:55.948Z\"\n    },\n    \"2021-04-01_2021-05-01\": {\n        \"price\": 1055,\n        \"updatedAt\": \"2021-01-16T14:46:27.783Z\"\n    }\n}"
             ],
             "result": {
-              "duration": 546572700,
+              "duration": 733195700,
               "status": "passed"
             },
             "line": 23,
@@ -425,7 +425,7 @@
           },
           {
             "result": {
-              "duration": 3643800,
+              "duration": 2335700,
               "status": "passed"
             },
             "line": 24,
@@ -443,7 +443,7 @@
           },
           {
             "result": {
-              "duration": 28534600,
+              "duration": 8462600,
               "status": "passed"
             },
             "line": 25,
@@ -479,11 +479,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-11T21:38:03.889Z",
+        "start_timestamp": "2021-03-12T01:04:56.741Z",
         "before": [
           {
             "result": {
-              "duration": 80500,
+              "duration": 54300,
               "status": "passed"
             },
             "match": {
@@ -506,7 +506,7 @@
               "RESPONSE :\n[\n    \n]"
             ],
             "result": {
-              "duration": 732799800,
+              "duration": 588427200,
               "status": "passed"
             },
             "line": 23,
@@ -544,7 +544,7 @@
           },
           {
             "result": {
-              "duration": 2763800,
+              "duration": 2481500,
               "status": "passed"
             },
             "line": 24,
@@ -562,7 +562,7 @@
           },
           {
             "result": {
-              "duration": 5129800,
+              "duration": 3536900,
               "status": "passed"
             },
             "line": 25,
@@ -598,11 +598,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-11T21:38:04.644Z",
+        "start_timestamp": "2021-03-12T01:04:57.349Z",
         "before": [
           {
             "result": {
-              "duration": 117600,
+              "duration": 73700,
               "status": "passed"
             },
             "match": {
@@ -625,7 +625,7 @@
               "RESPONSE :\n[\n    \n]"
             ],
             "result": {
-              "duration": 467090500,
+              "duration": 828560000,
               "status": "passed"
             },
             "line": 23,
@@ -663,7 +663,7 @@
           },
           {
             "result": {
-              "duration": 3236300,
+              "duration": 1984700,
               "status": "passed"
             },
             "line": 24,
@@ -681,7 +681,7 @@
           },
           {
             "result": {
-              "duration": 2009600,
+              "duration": 1945400,
               "status": "passed"
             },
             "line": 25,
@@ -717,11 +717,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-11T21:38:05.150Z",
+        "start_timestamp": "2021-03-12T01:04:58.196Z",
         "before": [
           {
             "result": {
-              "duration": 63900,
+              "duration": 100900,
               "status": "passed"
             },
             "match": {
@@ -744,7 +744,7 @@
               "RESPONSE :\n{\n    \"2021-04-03\": {\n        \"price\": 350,\n        \"updatedAt\": \"2021-03-09T22:28:45.196Z\"\n    },\n    \"2021-04-02\": {\n        \"price\": 350,\n        \"updatedAt\": \"2021-03-09T18:06:58.893Z\"\n    },\n    \"2021-04-01\": {\n        \"price\": 393.04,\n        \"updatedAt\": \"2021-03-11T08:08:23.515Z\"\n    }\n}"
             ],
             "result": {
-              "duration": 466218300,
+              "duration": 477825000,
               "status": "passed"
             },
             "line": 38,
@@ -782,7 +782,7 @@
           },
           {
             "result": {
-              "duration": 2879900,
+              "duration": 3122600,
               "status": "passed"
             },
             "line": 39,
@@ -800,7 +800,7 @@
           },
           {
             "result": {
-              "duration": 310615400,
+              "duration": 136209900,
               "status": "passed"
             },
             "line": 40,
@@ -830,11 +830,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-11T21:38:05.973Z",
+        "start_timestamp": "2021-03-12T01:04:58.847Z",
         "before": [
           {
             "result": {
-              "duration": 60800,
+              "duration": 106600,
               "status": "passed"
             },
             "match": {
@@ -857,7 +857,7 @@
               "RESPONSE :\n{\n    \"2021-04-02_2021-05-03\": {\n        \"price\": 1165,\n        \"updatedAt\": \"2020-11-22T10:55:17.146Z\"\n    },\n    \"2021-04-02_2021-05-02\": {\n        \"price\": 889,\n        \"updatedAt\": \"2021-03-02T09:35:59.775Z\"\n    },\n    \"2021-04-01_2021-05-05\": {\n        \"price\": 860.5,\n        \"updatedAt\": \"2021-03-01T18:42:55.948Z\"\n    },\n    \"2021-04-01_2021-05-01\": {\n        \"price\": 1055,\n        \"updatedAt\": \"2021-01-16T14:46:27.783Z\"\n    }\n}"
             ],
             "result": {
-              "duration": 508106700,
+              "duration": 631551000,
               "status": "passed"
             },
             "line": 38,
@@ -895,7 +895,7 @@
           },
           {
             "result": {
-              "duration": 811000,
+              "duration": 817200,
               "status": "passed"
             },
             "line": 39,
@@ -913,7 +913,7 @@
           },
           {
             "result": {
-              "duration": 4028800,
+              "duration": 2736100,
               "status": "passed"
             },
             "line": 40,
@@ -943,11 +943,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-11T21:38:06.500Z",
+        "start_timestamp": "2021-03-12T01:04:59.480Z",
         "before": [
           {
             "result": {
-              "duration": 50100,
+              "duration": 61800,
               "status": "passed"
             },
             "match": {
@@ -970,7 +970,7 @@
               "RESPONSE :\n[\n    \n]"
             ],
             "result": {
-              "duration": 730709100,
+              "duration": 704618900,
               "status": "passed"
             },
             "line": 38,
@@ -1008,7 +1008,7 @@
           },
           {
             "result": {
-              "duration": 3202900,
+              "duration": 2225100,
               "status": "passed"
             },
             "line": 39,
@@ -1026,7 +1026,7 @@
           },
           {
             "result": {
-              "duration": 10610800,
+              "duration": 9869700,
               "status": "passed"
             },
             "line": 40,

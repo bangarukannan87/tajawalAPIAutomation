@@ -105,8 +105,7 @@ public class HotelDetailsSteps {
         HashMap<String, Object> hotelMap = response.getBody().jsonPath().get("hotels");
         HashMap<String, String> filteredDetails = new HashMap<>();
         hotelMap.entrySet().parallelStream().filter(eachHotel -> {
-            return (!(HttpMethods.callGETMethod(((HashMap<String,Object>)eachHotel.getValue()).get("thumbnailUrl").toString()).getStatusCode()==200 &&
-                    HttpMethods.callGETMethod(((HashMap<String,Object>)eachHotel.getValue()).get("thumbnailUrl").toString()).getContentType().contains("image")));
+            return (!(HttpMethods.callGETMethod(((HashMap<String,Object>)eachHotel.getValue()).get("thumbnailUrl").toString()).getStatusCode()==200));
         }).
                 forEach(eachHotel -> {
             HttpMethods.callGETMethod(((HashMap<String,Object>)eachHotel.getValue()).get("thumbnailUrl").toString());
